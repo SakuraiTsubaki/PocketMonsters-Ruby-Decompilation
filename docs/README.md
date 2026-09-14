@@ -1,13 +1,14 @@
 # Documentation Hub
 
-This directory is the central documentation portal for the decompilation project. Use it to move from target identification and research through reconstruction, asset handling, manifests, and verification without losing version context or evidence.
+This directory is the central documentation portal for the decompilation project. Use it to move from public-source census and target identification through reconstruction, asset handling, manifests, and verification without losing version context or evidence.
 
 ## Quick links
 
 | Document | Purpose |
 | --- | --- |
+| [Public Source Inventory](SOURCE_INVENTORY.md) | Exhaustive-source coverage ledger, registered sources, gaps, deduplication, and search-completion rules |
 | [Project Status](PROJECT_STATUS.md) | Current stage, target coverage, validation level, and next milestones |
-| [Roadmap](ROADMAP.md) | Recommended project phases from target definition through reproducible reconstruction |
+| [Roadmap](ROADMAP.md) | Recommended project phases from public-source census and target definition through reproducible reconstruction |
 | [Version Coverage](VERSIONS.md) | Regions, languages, revisions, updates, builds, hashes, and support status |
 | [Research Guide](RESEARCH_GUIDE.md) | Evidence, confidence, offsets, naming, and research-recording practices |
 | [Verification Guide](VERIFICATION.md) | Standards for Unverified, Observed, Reproduced, and Matched results |
@@ -23,18 +24,21 @@ As verified work becomes concrete, documentation may grow into areas such as `ar
 
 ## Recommended documentation flow
 
-1. Identify the target in `VERSIONS.md`.
-2. Record investigation methods and evidence according to `RESEARCH_GUIDE.md`.
-3. Reconstruct source, data, or assets following `PROJECT_STANDARDS.md` and `REPOSITORY_STRUCTURE.md`.
-4. For asset work, follow `ASSET_WORKFLOW.md` and register material in `../manifests/`.
-5. Apply the validation levels defined in `VERIFICATION.md`.
-6. Update `PROJECT_STATUS.md` and `ROADMAP.md` when meaningful milestones are reached.
+1. Register and classify public evidence in `SOURCE_INVENTORY.md`; do not equate a few representative sources with exhaustive coverage.
+2. Identify the exact target in `VERSIONS.md`, using the Japanese release as the historical comparison baseline while keeping revisions and international releases separate.
+3. Record investigation methods and evidence according to `RESEARCH_GUIDE.md`.
+4. Reconstruct source, data, or assets following `PROJECT_STANDARDS.md` and `REPOSITORY_STRUCTURE.md`.
+5. For asset work, follow `ASSET_WORKFLOW.md` and register material in `../manifests/`.
+6. Apply the validation levels defined in `VERIFICATION.md`.
+7. Update `PROJECT_STATUS.md` and `ROADMAP.md` when meaningful milestones are reached.
 
 ## Documentation rules
 
 - Distinguish confirmed findings from hypotheses.
 - Identify the exact target version or revision for version-specific claims.
+- Search Japanese and international source ecosystems rather than assuming the English-language web is complete.
 - Record offsets, paths, symbols, hashes, commands, and other stable evidence when practical.
 - Use `TBD`, `unknown`, or `null` instead of inventing missing information.
+- Record negative searches and inaccessible/dead sources when they matter to coverage.
 - Preserve enough provenance for another researcher to reproduce or verify the finding.
 - Keep retail ROM images, decrypted game images, console keys, and other redistributable game binaries out of the repository.
