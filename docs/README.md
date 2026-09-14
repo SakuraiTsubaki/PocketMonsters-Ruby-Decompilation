@@ -19,15 +19,7 @@ This directory is the central documentation portal for the decompilation project
 
 ## Research areas
 
-As verified work becomes concrete, documentation may grow into areas such as:
-
-- `architecture/` — executable layout, major subsystems, symbols, and dependencies
-- `formats/` — file formats, tables, containers, serialization, and compression
-- `research/` — focused investigations, hypotheses, evidence, and resolved findings
-- `versions/` — region, language, revision, and update differences
-- `verification/` — hashes, comparisons, test results, matching notes, and reproducibility evidence
-
-Create these directories when they contain real research material rather than as empty placeholders.
+As verified work becomes concrete, documentation may grow into areas such as `architecture/`, `formats/`, `research/`, `versions/`, and `verification/`. Create these directories when they contain real research material rather than as empty placeholders.
 
 ## Recommended documentation flow
 
