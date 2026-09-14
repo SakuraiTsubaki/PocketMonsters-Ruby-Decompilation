@@ -65,8 +65,8 @@ The entries below are **seed records**, not a claim of completeness.
 | RE-PP-MYSTERY | https://projectpokemon.org/home/forums/topic/35903-gen-3-mystery-eventgift-research/ | Reverse engineering | Gen III Mystery Event/Gift save structures, scripts, flags, distributions and regional behavior | Observed |
 | EVT-PP-COMP | https://projectpokemon.org/home/files/file/3277-pokemon-generation-iii-event-compilation-savefiles/ | Preservation / event | Preserved event-Pokémon compilation and provenance leads across languages and GBA/GameCube sources | Observed |
 | SRC-EVENT-PATCHER | https://github.com/superguideguy/gen-iii-event-patcher | Research tooling | Event-script and distribution-ROM research tooling; derivative, not primary retail evidence | Observed |
-| SRC-PROJECT-WONDER | https://github.com/Goppier/Gen3DistributionRoms | Distribution research | Japanese/English Generation III distribution research; distinguish original preserved material from reconstructed/custom distributions | Observed |
-| SRC-PROJECT-WONDER2 | https://github.com/Goppier/Gen3DistributionRoms | Distribution research | Candidate distribution resource; provenance and originality must be evaluated per file | Unverified details |
+| SRC-PROJECT-WONDER | https://github.com/Goppier/Gen3DistributionRoms | Distribution research | Project Wonder / JoySpot-oriented distribution-ROM patching research; includes custom/translated material and must not be treated as original retail evidence | Observed |
+| SRC-GEN3-DIST | https://github.com/Goppier/GEN3PokemonDistributions | Distribution research | Japanese/English Generation III distribution preservation/research lead; provenance and originality must be evaluated per file | Observed |
 | SRC-NICHRUBY | https://github.com/nicholatian/nichruby | Independent reimplementation | Clean reimplementation derived from public Ruby work; useful for comparison, not independent evidence of retail bytes | Observed |
 
 ## Evidence handling
