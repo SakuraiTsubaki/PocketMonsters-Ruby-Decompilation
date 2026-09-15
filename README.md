@@ -1,6 +1,6 @@
 # Pocket Monsters Ruby — Decompilation
 
-![Status](https://img.shields.io/badge/status-baseline_locked-brightgreen)
+![Status](https://img.shields.io/badge/status-direct_analysis_started-blue)
 ![Project](https://img.shields.io/badge/project-decompilation-blue)
 ![ROMs](https://img.shields.io/badge/ROM_binaries-not_included-success)
 
@@ -15,19 +15,19 @@ Decompilation and source-reconstruction project for **Pokémon Ruby**.
 
 ## 🚧 Status
 
-**Decompilation has started.** The first active byte-matching baseline is the English Revision 0 build (`AXVE`, revision byte `0`, SHA-1 `f28b6ffc97847e94a6c21a63cacf633ee5c8df1e`). Rev 1 and Rev 2 are recorded as secondary revision targets.
+**Decompilation has started.** The current phase is direct source acquisition and identity mapping. No ROM revision, region, language build, hash, symbol map, or binary layout is treated as authoritative until it has been derived from project-supplied source material and recorded with reproducible evidence.
 
-The repository now includes machine-readable target metadata and a local ROM verifier. The next phase is top-level ROM/binary mapping followed by matched source reconstruction.
+Public decompilation repositories and third-party reconstruction projects are not used as authoritative inputs for this project.
 
-## ✅ Bootstrap verification
+## 🔎 Direct ROM inspection
 
-Retail ROM images remain outside the repository. Verify a local image with:
+Retail ROM images remain outside the repository. Inspect a local source image with:
 
 ```sh
-make verify-rom ROM=/path/to/local/PokemonRuby.gba
+make inspect-rom ROM=/path/to/local/PokemonRuby.gba
 ```
 
-The default target is `ruby_en_rev0`. Other registered targets can be selected with `TARGET=...`.
+This reports GBA header identity, file size, SHA-1, and SHA-256 directly from the supplied file. Once a target has been verified and registered in `manifests/versions.json`, it can be checked with `make verify-rom`.
 
 ## 🗂️ Scope
 
@@ -46,10 +46,10 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 
 ## 🧭 Roadmap
 
-- [x] Establish initial baseline version/revision inventory
-- [x] Lock the first byte-matching target
-- [x] Add ROM identity verification workflow
-- [ ] Map executable and data structures
+- [ ] Directly inspect and identify the first source ROM
+- [ ] Lock the first verified reconstruction target
+- [x] Add direct ROM identity inspection tooling
+- [ ] Map executable and data structures from the verified target
 - [ ] Begin matched source reconstruction
 - [ ] Document assets, scripts, and formats
 - [ ] Expand verified regional/language/revision coverage
@@ -61,7 +61,7 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 | --- | --- |
 | [Project status](docs/PROJECT_STATUS.md) | Current stage, coverage, validation level, and next milestones |
 | [Roadmap](docs/ROADMAP.md) | Recommended decompilation phases and long-term progression |
-| [Version coverage](docs/VERSIONS.md) | Regions, languages, revisions, builds, hashes, and active baseline |
+| [Version coverage](docs/VERSIONS.md) | Directly verified regions, languages, revisions, builds, and hashes |
 | [Research guide](docs/RESEARCH_GUIDE.md) | Evidence, confidence, and research-recording workflow |
 | [Verification guide](docs/VERIFICATION.md) | Standards for Observed, Reproduced, and Matched results |
 | [Repository structure](docs/REPOSITORY_STRUCTURE.md) | Intended long-term source, data, asset, tooling, and manifest layout |
@@ -71,11 +71,9 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 
 Real project directories are added when they contain verified material. The project will grow into `src/`, `include/`, `data/`, `assets/`, `tools/`, `tests/`, and related areas as reconstruction progresses; empty decorative trees are avoided.
 
-See [Repository Structure](docs/REPOSITORY_STRUCTURE.md) for the organization policy.
-
 ## 🔬 Research and verification
 
-Research findings identify the target version/revision and clearly separate hypotheses from observed, reproduced, or matched results. The active target inventory is also available in `manifests/versions.json`.
+Research findings identify the exact directly inspected source and clearly separate hypotheses from observed, reproduced, or matched results. Unknown values remain unknown until verified.
 
 ## 🤝 Contributing
 
