@@ -2,59 +2,7 @@
   "schema_version": 1,
   "project": "PocketMonsters-Ruby-Decompilation",
   "platform": "Game Boy Advance",
-  "active_target": "ruby_en_rev0",
-  "targets": {
-    "ruby_en_rev0": {
-      "status": "in_progress",
-      "language": "English",
-      "region_note": "USA / Europe English release family; database market labels vary, identity is hash/header based",
-      "rom_size": 16777216,
-      "header": {
-        "title": "POKEMON RUBY",
-        "game_code": "AXVE",
-        "revision": 0
-      },
-      "hashes": {
-        "sha1": "f28b6ffc97847e94a6c21a63cacf633ee5c8df1e"
-      },
-      "role": "primary_matching_target"
-    },
-    "ruby_en_rev1": {
-      "status": "verified_reference",
-      "language": "English",
-      "region_note": "English release family",
-      "rom_size": 16777216,
-      "header": {
-        "title": "POKEMON RUBY",
-        "game_code": "AXVE",
-        "revision": 1
-      },
-      "hashes": {
-        "sha1": "610b96a9c9a7d03d2bafb655e7560ccff1a6d894"
-      },
-      "role": "secondary_revision_target"
-    },
-    "ruby_en_rev2": {
-      "status": "verified_reference",
-      "language": "English",
-      "region_note": "English release family",
-      "rom_size": 16777216,
-      "header": {
-        "title": "POKEMON RUBY",
-        "game_code": "AXVE",
-        "revision": 2
-      },
-      "hashes": {
-        "sha1": "5b64eacf892920518db4ec664e62a086dd5f5bc8"
-      },
-      "role": "secondary_revision_target"
-    }
-  },
-  "sources": [
-    "https://github.com/pret/pokeruby/blob/master/config.mk",
-    "https://github.com/pret/pokeruby/blob/master/ruby.sha1",
-    "https://github.com/pret/pokeruby/blob/master/ruby_rev1.sha1",
-    "https://github.com/pret/pokeruby/blob/master/ruby_rev2.sha1",
-    "https://gbhwdb.gekkio.fi/cartridges/AGB-AXVE-0/fexcollects-1.html"
-  ]
+  "source_policy": "direct_analysis_only",
+  "active_target": null,
+  "targets": {}
 }
