@@ -13,4 +13,4 @@ The function calls a leap-year predicate and accumulates a directly observed 12-
 
 Old boundary behavior occurs in `jp-r0`, `en-us-r0`, `en-eu-r1`, `fr-r0`, `de-r0`, `de-debug-r0`, `it-r0`, and `es-r0`. Corrected behavior occurs in `en-us-eu-r2`, `fr-r1`, `de-r1`, `it-r1`, and `es-r1`.
 
-The initial semantic C reconstruction is at `generation-iii/ruby/japan/rev-0/decompilation/src/calendar_day_count.c`. It preserves Japanese Rev 0 behavior and separately documents the later corrected boundary. Compiler matching has not started yet.
+The initial semantic C reconstruction is at `src/calendar_day_count.c`, following the repository's established top-level source layout. It preserves Japanese Rev 0 behavior and separately documents the later corrected boundary. Compiler matching has not started yet.
