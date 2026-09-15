@@ -1,0 +1,27 @@
+# Local inputs and complete game images
+*.gba
+*.gb
+*.gbc
+*.nds
+*.3ds
+*.cia
+*.xci
+*.nsp
+*.srl
+*.rom
+*.iso
+
+# Keys / local secrets
+*.key
+*.keys
+
+# Local caches and generated scratch
+.cache/
+.tmp/
+tmp/
+build/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
