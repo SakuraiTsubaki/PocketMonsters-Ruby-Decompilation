@@ -1,6 +1,6 @@
 # Pocket Monsters Ruby — Decompilation
 
-![Status](https://img.shields.io/badge/status-initial_setup-lightgrey)
+![Status](https://img.shields.io/badge/status-baseline_locked-brightgreen)
 ![Project](https://img.shields.io/badge/project-decompilation-blue)
 ![ROMs](https://img.shields.io/badge/ROM_binaries-not_included-success)
 
@@ -15,9 +15,21 @@ Decompilation and source-reconstruction project for **Pokémon Ruby**.
 
 ## 🚧 Status
 
-This repository is in its **initial setup** stage. Source reconstruction and documentation will be added progressively.
+**Decompilation has started.** The first active byte-matching baseline is the English Revision 0 build (`AXVE`, revision byte `0`, SHA-1 `f28b6ffc97847e94a6c21a63cacf633ee5c8df1e`). Rev 1 and Rev 2 are recorded as secondary revision targets.
 
-## 🗂️ Planned scope
+The repository now includes machine-readable target metadata and a local ROM verifier. The next phase is top-level ROM/binary mapping followed by matched source reconstruction.
+
+## ✅ Bootstrap verification
+
+Retail ROM images remain outside the repository. Verify a local image with:
+
+```sh
+make verify-rom ROM=/path/to/local/PokemonRuby.gba
+```
+
+The default target is `ruby_en_rev0`. Other registered targets can be selected with `TARGET=...`.
+
+## 🗂️ Scope
 
 - Code and executable analysis
 - Game data structures
@@ -26,6 +38,7 @@ This repository is in its **initial setup** stage. Source reconstruction and doc
 - Audio and resource formats
 - Maps and world data
 - Tools, notes, manifests, and verification data
+- Region, language, and revision differences
 
 ## 📌 Repository policy
 
@@ -33,11 +46,14 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 
 ## 🧭 Roadmap
 
-- [ ] Establish baseline version/revision inventory
+- [x] Establish initial baseline version/revision inventory
+- [x] Lock the first byte-matching target
+- [x] Add ROM identity verification workflow
 - [ ] Map executable and data structures
-- [ ] Begin source reconstruction
+- [ ] Begin matched source reconstruction
 - [ ] Document assets, scripts, and formats
-- [ ] Add verification and reproducibility workflow
+- [ ] Expand verified regional/language/revision coverage
+- [ ] Add complete build and binary-comparison workflow
 
 ## 📚 Documentation
 
@@ -45,21 +61,21 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 | --- | --- |
 | [Project status](docs/PROJECT_STATUS.md) | Current stage, coverage, validation level, and next milestones |
 | [Roadmap](docs/ROADMAP.md) | Recommended decompilation phases and long-term progression |
-| [Version coverage](docs/VERSIONS.md) | Regions, languages, revisions, updates, builds, and hashes |
+| [Version coverage](docs/VERSIONS.md) | Regions, languages, revisions, builds, hashes, and active baseline |
 | [Research guide](docs/RESEARCH_GUIDE.md) | Evidence, confidence, and research-recording workflow |
 | [Verification guide](docs/VERIFICATION.md) | Standards for Observed, Reproduced, and Matched results |
 | [Repository structure](docs/REPOSITORY_STRUCTURE.md) | Intended long-term source, data, asset, tooling, and manifest layout |
 | [Documentation hub](docs/README.md) | Entry point for format, executable, script, asset, version, and verification notes |
 
-## 🧱 Repository structure
+## 🧱 Repository growth
 
-As real project material is reconstructed, the repository may grow into areas such as `src/`, `include/`, `data/`, `assets/`, `tools/`, `tests/`, and `manifests/`. Empty directory trees are not created only for appearance, and platform-specific structure should follow verified target architecture rather than another generation's layout.
+Real project directories are added when they contain verified material. The project will grow into `src/`, `include/`, `data/`, `assets/`, `tools/`, `tests/`, and related areas as reconstruction progresses; empty decorative trees are avoided.
 
-See [Repository Structure](docs/REPOSITORY_STRUCTURE.md) for the full organization policy.
+See [Repository Structure](docs/REPOSITORY_STRUCTURE.md) for the organization policy.
 
 ## 🔬 Research and verification
 
-Research findings should identify the relevant target version or revision and clearly separate hypotheses from observed, reproduced, or matched results. Use the repository's Research and Verification issue templates when tracking substantial findings.
+Research findings identify the target version/revision and clearly separate hypotheses from observed, reproduced, or matched results. The active target inventory is also available in `manifests/versions.json`.
 
 ## 🤝 Contributing
 
