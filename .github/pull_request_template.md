@@ -1,20 +1,15 @@
-## Scope
+## Summary
 
-- Target/build:
-- Domain:
-
-## What changed
-
-Describe the research, source, tooling, asset, manifest, or verification change.
-
-## Evidence / provenance
-
-List relevant paths, offsets, symbols, hashes, commands, or external references.
+Describe the reconstruction, research, tooling, or documentation added by this pull request.
 
 ## Verification
 
-- [ ] Confirmed target identity
-- [ ] Reproducible method documented
-- [ ] Manifests updated when applicable
-- [ ] Hash/byte comparison or round-trip validation performed when applicable
-- [ ] No retail ROM/full-game image/keys committed
+Explain how the change was checked. Include version/revision information, hashes, offsets, tests, or comparison methods when relevant.
+
+## Checklist
+
+- [ ] No ROM images, keys, or redistributable game binaries are included.
+- [ ] Version/revision scope is documented where relevant.
+- [ ] Confirmed findings and hypotheses are clearly distinguished.
+- [ ] Generated output is reproducible or its generation process is documented.
+- [ ] Documentation has been updated for user-visible structural changes.

@@ -1,34 +1,66 @@
-# PocketMonsters-Ruby-Decompilation
+# Pocket Monsters Ruby — Decompilation
 
-Clean-baseline decompilation and reverse-engineering project for **Pocket Monsters Ruby**.
+![Status](https://img.shields.io/badge/status-initial_setup-lightgrey)
+![Project](https://img.shields.io/badge/project-decompilation-blue)
+![ROMs](https://img.shields.io/badge/ROM_binaries-not_included-success)
 
-This repository restarts from a deliberately small, stable live tree. Earlier commits remain valuable historical reference, but old directory layouts, migration trees, structure-version namespaces, and unfinished working trees are not restored automatically.
+Decompilation and source-reconstruction project for **Pokémon Ruby**.
 
-## Project principles
+## 🎯 Goals
 
-- Identify exact targets, revisions, languages, regions, and source provenance before making version-specific claims.
-- Separate confirmed observations from hypotheses and unknowns.
-- Prefer editable source, reproducible tooling, manifests, hashes, and verification over opaque generated output.
-- Store byte-identical assets once only after hash or byte-level confirmation; visual similarity is not enough.
-- Keep reviewable derived assets such as PNG previews when they materially help inspection and provenance is preserved.
-- Do not commit retail ROMs, rebuilt ROMs, decrypted full-game images, keys, or disguised complete game images.
-- Keep one current live structure. Git history is the history layer; do not create live `vN`, `PRE-VN`, `MIGRATED`, or legacy-history trees.
-- Import useful historical work only after it has been reviewed against the current standards.
+- Reconstruct game code and data into readable, editable source form.
+- Document executable structures, data formats, scripts, assets, and version differences.
+- Keep analysis, tooling, metadata, and documentation reproducible.
+- Build a clean foundation for long-term reverse-engineering work.
 
-## Documentation
+## 🚧 Status
 
-- [Documentation hub](docs/README.md)
-- [Project standards](docs/PROJECT_STANDARDS.md)
-- [Repository structure](docs/REPOSITORY_STRUCTURE.md)
-- [Research guide](docs/RESEARCH_GUIDE.md)
-- [Verification guide](docs/VERIFICATION.md)
-- [Version coverage](docs/VERSIONS.md)
-- [Roadmap](docs/ROADMAP.md)
-- [Project status](docs/PROJECT_STATUS.md)
-- [Asset workflow](docs/ASSET_WORKFLOW.md)
-- [Repository ecosystem](docs/ECOSYSTEM.md)
-- [Manifest guide](manifests/README.md)
+This repository is in its **initial setup** stage. Source reconstruction and documentation will be added progressively.
 
-## Current status
+## 🗂️ Planned scope
 
-**Baseline established.** Game-specific work should now be added only through the stable structure and verification rules documented here.
+- Code and executable analysis
+- Game data structures
+- Scripts and event data
+- Graphics and asset metadata
+- Audio and resource formats
+- Maps and world data
+- Tools, notes, manifests, and verification data
+
+## 📌 Repository policy
+
+ROM images and redistributed ROM binaries are **not included**. The repository is intended for reconstructed source, extracted/recreated project data, tooling, analysis, and documentation.
+
+## 🧭 Roadmap
+
+- [ ] Establish baseline version/revision inventory
+- [ ] Map executable and data structures
+- [ ] Begin source reconstruction
+- [ ] Document assets, scripts, and formats
+- [ ] Add verification and reproducibility workflow
+
+## 📚 Documentation
+
+| Document | Purpose |
+| --- | --- |
+| [Project status](docs/PROJECT_STATUS.md) | Current stage, coverage, validation level, and next milestones |
+| [Roadmap](docs/ROADMAP.md) | Recommended decompilation phases and long-term progression |
+| [Version coverage](docs/VERSIONS.md) | Regions, languages, revisions, updates, builds, and hashes |
+| [Research guide](docs/RESEARCH_GUIDE.md) | Evidence, confidence, and research-recording workflow |
+| [Verification guide](docs/VERIFICATION.md) | Standards for Observed, Reproduced, and Matched results |
+| [Repository structure](docs/REPOSITORY_STRUCTURE.md) | Intended long-term source, data, asset, tooling, and manifest layout |
+| [Documentation hub](docs/README.md) | Entry point for format, executable, script, asset, version, and verification notes |
+
+## 🧱 Repository structure
+
+As real project material is reconstructed, the repository may grow into areas such as `src/`, `include/`, `data/`, `assets/`, `tools/`, `tests/`, and `manifests/`. Empty directory trees are not created only for appearance, and platform-specific structure should follow verified target architecture rather than another generation's layout.
+
+See [Repository Structure](docs/REPOSITORY_STRUCTURE.md) for the full organization policy.
+
+## 🔬 Research and verification
+
+Research findings should identify the relevant target version or revision and clearly separate hypotheses from observed, reproduced, or matched results. Use the repository's Research and Verification issue templates when tracking substantial findings.
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution rules, evidence expectations, commit guidance, and pull-request requirements.

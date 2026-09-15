@@ -1,13 +1,37 @@
 # Research Guide
 
-Every durable research claim should answer as many of these as practical:
+This guide defines how reverse-engineering findings should be recorded so that later contributors can reproduce and verify them.
 
-- What exact target/build was examined?
-- What file, archive, bank, section, symbol, offset, index, or record is involved?
-- What was directly observed?
-- What is inferred or still hypothetical?
-- Which tool, command, script, or method reproduced the observation?
-- Which hash or stable identifier ties the result to its source?
-- Does another version differ?
+## Evidence first
 
-Prefer small research records that can later be promoted into architecture, format, or implementation documentation. Never convert uncertainty into invented metadata.
+For each finding, record the strongest available evidence:
+
+- target version / revision
+- file, archive, executable, overlay, or symbol name
+- offsets or addresses when meaningful
+- hashes or identifiers when available
+- scripts, commands, or tools used
+- comparison notes and observed behavior
+
+## Confidence levels
+
+- **Hypothesis** — plausible but not confirmed.
+- **Observed** — directly seen in a target build or extracted data.
+- **Reproduced** — recreated with documented steps.
+- **Matched** — reconstructed output verified against the intended target.
+
+Do not silently promote hypotheses into facts.
+
+## Research workflow
+
+1. Define the exact question.
+2. Identify the target version and evidence source.
+3. Record observations before interpretation.
+4. Build the smallest reproducible test or extraction method possible.
+5. Compare across versions when differences are relevant.
+6. Document the result in `docs/`, code comments, manifests, or a verification issue.
+7. Update `PROJECT_STATUS.md`, `VERSIONS.md`, or `ROADMAP.md` when the finding changes project scope or progress.
+
+## Repository boundaries
+
+Do not commit retail ROM/game images, decrypted distribution images, console keys, or other redistributable game binaries. Reconstructed source, tooling, documentation, manifests, metadata, and project-created assets should remain reproducible and reviewable.

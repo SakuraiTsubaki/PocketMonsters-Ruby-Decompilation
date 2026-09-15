@@ -1,13 +1,35 @@
 # Contributing
 
-Contributions should improve reproducibility, evidence quality, reconstruction accuracy, or reviewability.
+Thank you for helping with the **Pocket Monsters Ruby / Pokémon Ruby decompilation project**.
 
-- State the exact target build or scope affected.
-- Distinguish observation, inference, and hypothesis.
-- Include source identifiers, offsets, paths, hashes, commands, or other reproducible evidence when practical.
-- Keep generated outputs tied to their source inputs and generation method.
-- Update manifests and verification records when adding or replacing material.
-- Do not commit retail ROMs, complete game images, keys, local caches, or disposable dumps.
-- Do not introduce a new repository-wide directory model casually; extend the stable structure only when verified project needs require it.
+## What belongs here
 
-Small, reviewable commits are preferred for research and asset batches.
+Contributions may include:
+
+- source reconstruction and symbol naming
+- executable and data-format documentation
+- scripts and extraction/repacking tools
+- text, graphics, audio, map, and script research
+- version and regional difference documentation
+- reproducibility and verification tooling
+
+## Repository rules
+
+- Do **not** commit retail ROM images, decrypted game images, keys, or other redistributable game binaries.
+- Prefer small, reviewable commits with a clear purpose.
+- Document assumptions, offsets, formats, hashes, and source/version information whenever relevant.
+- Keep generated files reproducible from documented source data and tooling where possible.
+- Preserve uncertain findings as clearly marked research notes rather than presenting guesses as confirmed facts.
+
+## Commit style
+
+Use short, descriptive commit messages, for example:
+
+- `Document battle data structure`
+- `Add script opcode notes`
+- `Reconstruct item table parser`
+- `Add version-difference manifest`
+
+## Pull requests
+
+A pull request should explain what was reconstructed or documented, how it was verified, and any known limitations or unresolved questions.

@@ -1,18 +1,48 @@
 # Documentation Hub
 
-This directory is the central documentation portal for the project.
+This directory is the central documentation portal for the decompilation project. Use it to move from target identification and research through reconstruction, asset handling, manifests, and verification without losing version context or evidence.
+
+## Quick links
 
 | Document | Purpose |
 | --- | --- |
-| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Current stage, validation state, and immediate work |
-| [ROADMAP.md](ROADMAP.md) | Long-term project phases |
-| [VERSIONS.md](VERSIONS.md) | Target builds, revisions, languages, regions, and hashes |
-| [RESEARCH_GUIDE.md](RESEARCH_GUIDE.md) | Evidence and research-recording rules |
-| [VERIFICATION.md](VERIFICATION.md) | Validation levels and matching requirements |
-| [REPOSITORY_STRUCTURE.md](REPOSITORY_STRUCTURE.md) | Stable live-tree rules |
-| [PROJECT_STANDARDS.md](PROJECT_STANDARDS.md) | Naming, provenance, assets, manifests, and boundaries |
-| [ASSET_WORKFLOW.md](ASSET_WORKFLOW.md) | Extraction, conversion, deduplication, and review workflow |
-| [ECOSYSTEM.md](ECOSYSTEM.md) | Relationship to Sakurai, Tsubaki, and sibling repositories |
-| [../manifests/README.md](../manifests/README.md) | Manifest requirements |
+| [Project Status](PROJECT_STATUS.md) | Current stage, target coverage, validation level, and next milestones |
+| [Roadmap](ROADMAP.md) | Recommended project phases from target definition through reproducible reconstruction |
+| [Version Coverage](VERSIONS.md) | Regions, languages, revisions, updates, builds, hashes, and support status |
+| [Research Guide](RESEARCH_GUIDE.md) | Evidence, confidence, offsets, naming, and research-recording practices |
+| [Verification Guide](VERIFICATION.md) | Standards for Unverified, Observed, Reproduced, and Matched results |
+| [Repository Structure](REPOSITORY_STRUCTURE.md) | Intended long-term layout for source, data, assets, tools, tests, and manifests |
+| [Project Standards](PROJECT_STANDARDS.md) | Naming, provenance, generated-data, manifest, and repository-boundary rules |
+| [Asset Workflow](ASSET_WORKFLOW.md) | Extraction, reviewable assets, deduplication, manifest registration, and batch workflow |
+| [Manifest Guide](../manifests/README.md) | Machine-readable inventories, hashes, target coverage, provenance, and shared assets |
+| [Contributing](../CONTRIBUTING.md) | Contribution rules, evidence expectations, commits, and pull-request guidance |
 
-Create additional documentation areas only when real verified material exists. Do not create empty architecture layers merely to anticipate future work.
+## Research areas
+
+As verified work becomes concrete, documentation may grow into areas such as:
+
+- `architecture/` — executable layout, major subsystems, symbols, and dependencies
+- `formats/` — file formats, tables, containers, serialization, and compression
+- `research/` — focused investigations, hypotheses, evidence, and resolved findings
+- `versions/` — region, language, revision, and update differences
+- `verification/` — hashes, comparisons, test results, matching notes, and reproducibility evidence
+
+Create these directories when they contain real research material rather than as empty placeholders.
+
+## Recommended documentation flow
+
+1. Identify the target in `VERSIONS.md`.
+2. Record investigation methods and evidence according to `RESEARCH_GUIDE.md`.
+3. Reconstruct source, data, or assets following `PROJECT_STANDARDS.md` and `REPOSITORY_STRUCTURE.md`.
+4. For asset work, follow `ASSET_WORKFLOW.md` and register material in `../manifests/`.
+5. Apply the validation levels defined in `VERIFICATION.md`.
+6. Update `PROJECT_STATUS.md` and `ROADMAP.md` when meaningful milestones are reached.
+
+## Documentation rules
+
+- Distinguish confirmed findings from hypotheses.
+- Identify the exact target version or revision for version-specific claims.
+- Record offsets, paths, symbols, hashes, commands, and other stable evidence when practical.
+- Use `TBD`, `unknown`, or `null` instead of inventing missing information.
+- Preserve enough provenance for another researcher to reproduce or verify the finding.
+- Keep retail ROM images, decrypted game images, console keys, and other redistributable game binaries out of the repository.
