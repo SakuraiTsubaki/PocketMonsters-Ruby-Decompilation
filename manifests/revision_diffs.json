@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_from": "direct project ROM comparison",
+  "generated_date": "2026-09-16",
+  "retail_four_byte_deltas": {
+    "de-r0_to_de-r1": [{"offset":"0x000000BC","a":"00","b":"01"},{"offset":"0x000000BD","a":"42","b":"41"},{"offset":"0x00009367","a":"DD","b":"DB"},{"offset":"0x0000938B","a":"DC","b":"DA"}],
+    "fr-r0_to_fr-r1": [{"offset":"0x000000BC","a":"00","b":"01"},{"offset":"0x000000BD","a":"40","b":"3F"},{"offset":"0x00009367","a":"DD","b":"DB"},{"offset":"0x0000938B","a":"DC","b":"DA"}],
+    "it-r0_to_it-r1": [{"offset":"0x000000BC","a":"00","b":"01"},{"offset":"0x000000BD","a":"3D","b":"3C"},{"offset":"0x00009367","a":"DD","b":"DB"},{"offset":"0x0000938B","a":"DC","b":"DA"}],
+    "es-r0_to_es-r1": [{"offset":"0x000000BC","a":"00","b":"01"},{"offset":"0x000000BD","a":"33","b":"32"},{"offset":"0x00009367","a":"DD","b":"DB"},{"offset":"0x0000938B","a":"DC","b":"DA"}],
+    "en-eu-r1_to_en-us-eu-r2": [{"offset":"0x000000BC","a":"01","b":"02"},{"offset":"0x000000BD","a":"40","b":"3F"},{"offset":"0x0000919B","a":"DD","b":"DB"},{"offset":"0x000091BF","a":"DC","b":"DA"}]
+  },
+  "large_deltas": {
+    "en-us-r0_to_en-eu-r1": {"different_bytes":5744535,"changed_64k_blocks":109,"first_difference":"0x000000BC","last_difference":"0x00EA7C22"},
+    "de-r0_to_de-debug-r0": {"different_bytes":6751723,"changed_64k_blocks":110,"first_difference":"0x00000128","last_difference":"0x006DF86F"}
+  },
+  "calendar_boundary_fix": {
+    "old_builds": ["jp-r0","en-us-r0","en-eu-r1","fr-r0","de-r0","de-debug-r0","it-r0","es-r0"],
+    "fixed_builds": ["en-us-eu-r2","fr-r1","de-r1","it-r1","es-r1"],
+    "old_thumb_conditions": ["BLE","BGT"],
+    "fixed_thumb_conditions": ["BLT","BGE"],
+    "effect": "prior-year iteration changes from y > 0 to y >= 0",
+    "month_table": [31,28,31,30,31,30,31,31,30,31,30,31],
+    "confidence": "observed semantic structure; civil-year mapping of year index 0 remains a hypothesis until caller tracing"
+  }
+}

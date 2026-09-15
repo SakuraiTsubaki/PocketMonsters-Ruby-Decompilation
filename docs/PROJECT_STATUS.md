@@ -1,55 +1,26 @@
 # Project Status
 
-**Current stage:** Direct analysis started / target not yet locked
+**Current stage:** Phase 1 binary mapping + initial source reconstruction
 
-The Ruby decompilation is active, but no target build is treated as authoritative until it is identified from project-supplied source material.
-
-## Version inventory
-
-| Target | Region | Language | Revision | Verification | Notes |
-| --- | --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | Pending direct verification | Populate only from directly inspected project source material |
+Thirteen project-supplied Ruby targets are now directly verified. `jp-r0` is the canonical reconstruction target; every other supplied build remains an explicit comparison/matching target.
 
 ## Progress
 
-- [ ] Directly inspect the first source ROM
-- [ ] Record its GBA header identity and locally computed hashes
-- [ ] Define the primary reconstruction target
-- [x] Add direct ROM inspection tooling
-- [ ] Register verified target metadata in `manifests/versions.json`
-- [ ] Document ROM/executable section layout from the verified source
-- [ ] Map symbols, functions, and major subsystems
-- [ ] Document game-data formats and resource containers
-- [ ] Begin matched C/source reconstruction
-- [ ] Reconstruct scripts, events, and behavior
-- [ ] Reconstruct asset pipelines and metadata
-- [ ] Expand version inventory across official regions/languages/revisions
-- [ ] Add full build and binary-comparison workflow
+- [x] Directly inspect every supplied Ruby ROM
+- [x] Record GBA header identities and local hashes
+- [x] Define the primary reconstruction target (`jp-r0`)
+- [x] Register all 13 verified targets in `manifests/versions.json`
+- [x] Generate first-pass executable signatures
+- [x] Compare same-game-code revision families
+- [x] Identify and decompile the first revision-sensitive routine (calendar day-count boundary logic)
+- [ ] Persist full 64 KiB block-hash maps and classify common/delta regions
+- [ ] Finish reset/IRQ/main-loop call graph
+- [ ] Promote stable function boundaries to matched source units
+- [ ] Map scripts/events, maps, graphics, audio, text, save, link/peripheral subsystems
+- [ ] Build per-target compile and binary-match workflow
 
-## Current inspection command
+## First reconstruction result
 
-```sh
-make inspect-rom ROM=/path/to/local/PokemonRuby.gba
-```
+A calendar routine contains the first confirmed source-level revision change. Older supplied builds use `yearIndex > 0`; corrected revisions use `yearIndex >= 0`. The routine also walks the directly observed month-length table `31,28,31,30,31,30,31,31,30,31,30,31`. The exact mapping of year index 0 to civil year 2000 is still treated as a hypothesis until its RTC caller chain is traced.
 
-The command derives file size, GBA header fields, SHA-1, and SHA-256 directly from the supplied local file. Retail ROM images remain local and are ignored by Git.
-
-## Source policy
-
-- Project-supplied ROMs, dumps, extracted data, and reproducible direct analysis are primary evidence.
-- Public decompilation repositories and third-party reconstruction projects are not authoritative inputs.
-- Unknown version, layout, symbol, offset, compiler, or structure information remains explicitly unverified until reproduced from project evidence.
-
-## Validation levels
-
-- **Unverified** — proposed or recorded but not independently checked against project source material.
-- **Observed** — confirmed directly in a specific inspected target or extracted data.
-- **Reproduced** — the observation can be recreated using documented project inputs and tooling.
-- **Matched** — reconstructed output is verified against the intended target.
-
-## Next milestones
-
-1. Inspect the first project-supplied Ruby source ROM.
-2. Register its exact identity without importing external target metadata.
-3. Build the initial ROM/header/binary map from that source.
-4. Start the first source-reconstruction unit from directly observed bytes and behavior.
+See `docs/FIRST_DECOMPILATION.md` and `manifests/revision_diffs.json`.
