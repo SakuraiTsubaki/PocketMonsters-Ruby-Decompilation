@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping with the **Pocket Monsters Ruby / Pokémon Ruby decompilation project**.
+Thank you for helping with this decompilation and source-reconstruction project.
 
 ## What belongs here
 
