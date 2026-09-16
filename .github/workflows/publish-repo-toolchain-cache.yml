@@ -1,0 +1,82 @@
+name: Publish persistent repository toolchain cache
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-repo-toolchain-cache.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cache:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Build repository toolchain
+        shell: bash
+        run: |
+          set -uo pipefail
+          export CI=1 DEBIAN_FRONTEND=noninteractive
+          ran=0
+          if [[ -f Makefile ]] && grep -Eq '^[[:space:]]*setup-tools:' Makefile; then make setup-tools && ran=1 || true; fi
+          if [[ $ran -eq 0 ]]; then
+            for s in tools/bootstrap_gen9_linux.sh tools/bootstrap_toolchain.sh tools/bootstrap_nds_toolchain.sh tools/setup_dev_environment.sh tools/setup_environment.sh tools/bootstrap_env.sh setup-dev-env.sh; do
+              if [[ -f "$s" ]]; then echo "running $s"; bash "$s" && ran=1 || true; [[ $ran -eq 1 ]] && break; fi
+            done
+          fi
+          mkdir -p .toolchain-stage/repo .toolchain-stage/home-local-share .toolchain-stage/home-local-bin .toolchain-stage/opt
+          [[ -d .tools ]] && cp -a .tools .toolchain-stage/repo/
+          [[ -d .local-tools ]] && cp -a .local-tools .toolchain-stage/repo/
+          [[ -d "$HOME/.local/bin" ]] && cp -a "$HOME/.local/bin/." .toolchain-stage/home-local-bin/
+          if [[ -d "$HOME/.local/share" ]]; then
+            for d in "$HOME/.local/share"/pokemon-* "$HOME/.local/share"/gen*-tools "$HOME/.local/share"/pk*; do
+              [[ -e "$d" ]] || continue
+              cp -a "$d" .toolchain-stage/home-local-share/
+            done
+          fi
+          if [[ -d /opt/devkitpro ]]; then sudo cp -a /opt/devkitpro .toolchain-stage/opt/; fi
+          {
+            echo "repository=$GITHUB_REPOSITORY"
+            echo "commit=$GITHUB_SHA"
+            echo "runner=$(uname -s)-$(uname -m)"
+            for x in python3 git make cmake ninja clang ld.lld llvm-objcopy llvm-objdump arm-none-eabi-gcc arm-none-eabi-objdump mgba; do command -v "$x" >/dev/null 2>&1 && echo "$x=$(command -v "$x")" || true; done
+          } > .toolchain-stage/MANIFEST.txt
+          tar --zstd -cf repo-toolchain-linux-x86_64.tar.zst -C .toolchain-stage .
+          ls -lh repo-toolchain-linux-x86_64.tar.zst
+      - name: Publish cache release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euxo pipefail
+          tag='repo-toolchain-linux-x86_64-v1'
+          gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --title 'Repository toolchain cache (Linux x86_64)' --notes 'Prebuilt non-ROM toolchain cache for ephemeral ChatGPT/CI sessions.'
+          gh release upload "$tag" repo-toolchain-linux-x86_64.tar.zst --clobber
+      - name: Commit cache fetch helper
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p tools
+          cat > tools/fetch_repo_toolchain_cache.sh <<'EOF'
+          #!/usr/bin/env bash
+          set -euo pipefail
+          ROOT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+          REPO="${GITHUB_REPOSITORY:-SakuraiTsubaki/PocketMonsters-Ruby-Decompilation}"
+          TAG='repo-toolchain-linux-x86_64-v1'
+          DEST="${REPO_TOOLCHAIN_CACHE:-$ROOT_DIR/.repo-toolchain-cache}"
+          tmp="$(mktemp)"; trap 'rm -f "$tmp"' EXIT
+          curl -fL --retry 3 "https://github.com/$REPO/releases/download/$TAG/repo-toolchain-linux-x86_64.tar.zst" -o "$tmp"
+          rm -rf "$DEST"; mkdir -p "$DEST"
+          tar --zstd -xf "$tmp" -C "$DEST"
+          echo "repository toolchain cache extracted to $DEST"
+          EOF
+          chmod +x tools/fetch_repo_toolchain_cache.sh
+          git config user.name 'github-actions[bot]'; git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tools/fetch_repo_toolchain_cache.sh
+          git diff --cached --quiet && exit 0
+          git commit -m 'Add repository toolchain cache fetcher'
+          git push
