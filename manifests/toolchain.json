@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "project": "PocketMonsters-Ruby-Decompilation",
+  "platform": "Game Boy Advance",
+  "cpu": "ARM7TDMI",
+  "generated_date": "2026-09-16",
+  "tools": {
+    "gba_environment": {
+      "preferred": "devkitPro gba-dev / devkitARM",
+      "fallback": "arm-none-eabi GNU tools or LLVM/Clang for analysis",
+      "verification": "configured"
+    },
+    "matching_compiler": {
+      "name": "pret/agbcc",
+      "repository": "https://github.com/pret/agbcc",
+      "revision": "da598c1d918402c42c0c0d7128ba14567f3175e9",
+      "local_path": ".local/decompilation/agbcc",
+      "verification": "pinned"
+    },
+    "emulator": {
+      "name": "mGBA",
+      "version": "0.10.5",
+      "purpose": [
+        "runtime verification",
+        "CLI debugging",
+        "GDB remote debugging"
+      ],
+      "local_fallback": ".local/decompilation/bin/mgba",
+      "verification": "pinned"
+    },
+    "static_analysis": {
+      "name": "Ghidra",
+      "version": "12.1.x",
+      "required": false,
+      "runtime_requirement": "JDK 25 for current 12.1.x releases",
+      "verification": "optional"
+    }
+  },
+  "policy": {
+    "third_party_generated_binaries": "keep under .local and out of Git",
+    "rom_binaries": "never commit",
+    "exact_match_claims": "require explicit reproducible comparison"
+  }
+}
