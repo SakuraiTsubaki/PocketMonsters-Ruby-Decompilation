@@ -1,6 +1,8 @@
 PYTHON ?= python3
 ROM ?= baserom.gba
-MGBA ?= $(shell command -v mgba-qt 2>/dev/null || command -v mgba 2>/dev/null || printf '%s' .local/decompilation/bin/mgba)
+LOCAL_TOOL_ROOT := $(CURDIR)/.local/decompilation
+export PATH := $(LOCAL_TOOL_ROOT)/bin:$(LOCAL_TOOL_ROOT)/agbcc:$(PATH)
+MGBA ?= $(shell command -v mgba-qt 2>/dev/null || command -v mgba 2>/dev/null || printf '%s' $(LOCAL_TOOL_ROOT)/bin/mgba)
 
 .PHONY: help inspect-rom verify-rom setup-tools check-tools run-rom debug-rom
 
