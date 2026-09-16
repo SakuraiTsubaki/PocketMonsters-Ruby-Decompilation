@@ -19,6 +19,17 @@ Decompilation and source-reconstruction project for **Pokémon Ruby**.
 
 Public decompilation repositories and third-party reconstruction projects are not used as authoritative inputs for this project.
 
+## 🛠️ Toolchain and emulator
+
+This is a GBA / ARM7TDMI project. Prepare the project-local environment with:
+
+```sh
+make setup-tools
+make check-tools
+```
+
+The setup covers the host build tools, GBA/ARM tooling, pinned `pret/agbcc`, and mGBA. Third-party generated binaries stay under the ignored `.local/` directory. See [Toolchain and emulator](docs/TOOLCHAIN.md) for details.
+
 ## 🔎 Direct ROM inspection
 
 Retail ROM images remain outside the repository. Inspect a local source image with:
@@ -28,6 +39,13 @@ make inspect-rom ROM=/path/to/local/PokemonRuby.gba
 ```
 
 This reports GBA header identity, file size, SHA-1, and SHA-256 directly from the supplied file. Once a target has been verified and registered in `manifests/versions.json`, it can be checked with `make verify-rom`.
+
+Run or debug a local ROM with mGBA using:
+
+```sh
+make run-rom ROM=/path/to/local/PokemonRuby.gba
+make debug-rom ROM=/path/to/local/PokemonRuby.gba
+```
 
 ## 🗂️ Scope
 
@@ -62,6 +80,7 @@ ROM images and redistributed ROM binaries are **not included**. The repository i
 | [Project status](docs/PROJECT_STATUS.md) | Current stage, coverage, validation level, and next milestones |
 | [Roadmap](docs/ROADMAP.md) | Recommended decompilation phases and long-term progression |
 | [Version coverage](docs/VERSIONS.md) | Directly verified regions, languages, revisions, builds, and hashes |
+| [Toolchain and emulator](docs/TOOLCHAIN.md) | GBA/ARM tools, agbcc, mGBA, setup, and environment verification |
 | [Research guide](docs/RESEARCH_GUIDE.md) | Evidence, confidence, and research-recording workflow |
 | [Verification guide](docs/VERIFICATION.md) | Standards for Observed, Reproduced, and Matched results |
 | [Repository structure](docs/REPOSITORY_STRUCTURE.md) | Intended long-term source, data, asset, tooling, and manifest layout |
