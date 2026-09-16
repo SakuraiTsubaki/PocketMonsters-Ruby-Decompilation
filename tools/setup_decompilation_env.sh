@@ -1,0 +1,159 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+LOCAL="$ROOT/.local/decompilation"
+BIN="$LOCAL/bin"
+AGBCC_DIR="$LOCAL/agbcc"
+MGBA_VERSION="${MGBA_VERSION:-0.10.5}"
+AGBCC_REF="${AGBCC_REF:-da598c1d918402c42c0c0d7128ba14567f3175e9}"
+WITH_GHIDRA=0
+CHECK_ONLY=0
+
+for arg in "$@"; do
+    case "$arg" in
+        --check-only) CHECK_ONLY=1 ;;
+        --with-ghidra) WITH_GHIDRA=1 ;;
+        -h|--help)
+            cat <<USAGE
+Usage: bash tools/setup_decompilation_env.sh [--check-only] [--with-ghidra]
+
+Sets up the local tool environment for PocketMonsters-Ruby-Decompilation.
+Downloaded/generated third-party tools stay under .local/decompilation/ and are
+not committed. The script prefers an existing devkitARM/arm-none-eabi toolchain,
+then supported system package managers, while agbcc is built from pret/agbcc.
+USAGE
+            exit 0
+            ;;
+        *) echo "Unknown argument: $arg" >&2; exit 2 ;;
+    esac
+done
+
+mkdir -p "$BIN"
+
+have() { command -v "$1" >/dev/null 2>&1; }
+log() { printf '[ruby-tools] %s\n' "$*"; }
+warn() { printf '[ruby-tools] WARNING: %s\n' "$*" >&2; }
+
+install_base_and_arm() {
+    if (( CHECK_ONLY )); then
+        return
+    fi
+
+    if have apt-get; then
+        log "Installing Debian/Ubuntu build dependencies and ARM GNU tools when available"
+        export DEBIAN_FRONTEND=noninteractive
+        apt-get update
+        apt-get install -y \
+            build-essential git make python3 cmake ninja-build pkg-config libpng-dev \
+            curl ca-certificates xz-utils unzip gdb-multiarch \
+            gcc-arm-none-eabi binutils-arm-none-eabi || \
+            warn "APT install was incomplete; devkitARM or an existing ARM toolchain can be used instead"
+    elif have dkp-pacman; then
+        log "Installing devkitPro GBA group"
+        dkp-pacman -Syu --noconfirm
+        dkp-pacman -S --needed --noconfirm gba-dev
+    elif have pacman; then
+        log "Installing generic build dependencies with pacman"
+        pacman -Sy --needed --noconfirm base-devel git python cmake ninja libpng curl xz unzip gdb
+        warn "Configure devkitPro pacman and install gba-dev if arm-none-eabi tools are still absent"
+    elif have dnf; then
+        log "Installing generic build dependencies with dnf"
+        dnf install -y gcc gcc-c++ make git python3 cmake ninja-build libpng-devel curl xz unzip gdb
+    else
+        warn "No supported package manager detected; install Git, Make, Python 3, C/C++ build tools, and an ARM bare-metal toolchain manually"
+    fi
+}
+
+install_agbcc() {
+    if (( CHECK_ONLY )); then
+        return
+    fi
+    if [[ -x "$AGBCC_DIR/agbcc" && -x "$AGBCC_DIR/old_agbcc" && -x "$AGBCC_DIR/agbcc_arm" ]]; then
+        log "agbcc already built in $AGBCC_DIR"
+        return
+    fi
+    if ! have git; then
+        warn "git is unavailable; cannot fetch pret/agbcc"
+        return
+    fi
+    if [[ ! -d "$AGBCC_DIR/.git" ]]; then
+        log "Cloning pret/agbcc into .local/decompilation/agbcc"
+        git clone https://github.com/pret/agbcc.git "$AGBCC_DIR" || {
+            warn "Could not clone agbcc (network unavailable?). Re-run this script when GitHub access is available."
+            return
+        }
+    fi
+    log "Pinning agbcc to $AGBCC_REF"
+    (cd "$AGBCC_DIR" && git fetch --tags origin && git checkout --detach "$AGBCC_REF") || {
+        warn "Could not select pinned agbcc revision $AGBCC_REF"
+        return
+    }
+    log "Building agbcc"
+    (cd "$AGBCC_DIR" && ./build.sh) || {
+        warn "agbcc build failed; leave the checkout in place for inspection"
+        return
+    }
+}
+
+install_mgba() {
+    if have mgba-qt || have mgba; then
+        return
+    fi
+    if (( CHECK_ONLY )); then
+        return
+    fi
+
+    if have apt-get; then
+        apt-get install -y mgba-qt 2>/dev/null || apt-get install -y mgba-sdl 2>/dev/null || true
+    elif have dkp-pacman; then
+        dkp-pacman -S --needed --noconfirm mgba 2>/dev/null || true
+    elif have pacman; then
+        pacman -S --needed --noconfirm mgba 2>/dev/null || true
+    elif have dnf; then
+        dnf install -y mgba 2>/dev/null || true
+    fi
+
+    if ! have mgba-qt && ! have mgba && have curl; then
+        local appimage="$BIN/mgba"
+        local url="https://github.com/mgba-emu/mgba/releases/download/${MGBA_VERSION}/mGBA-${MGBA_VERSION}-appimage-x64.appimage"
+        if [[ "$(uname -m)" == "x86_64" || "$(uname -m)" == "amd64" ]]; then
+            log "Downloading mGBA ${MGBA_VERSION} AppImage"
+            if curl -fL --retry 3 "$url" -o "$appimage"; then
+                chmod +x "$appimage"
+            else
+                rm -f "$appimage"
+                warn "mGBA download failed; re-run when network access is available"
+            fi
+        else
+            warn "Automatic mGBA AppImage install currently targets x86_64; install mGBA with the host package manager"
+        fi
+    fi
+}
+
+write_env() {
+    cat > "$LOCAL/env.sh" <<ENV
+# Generated by tools/setup_decompilation_env.sh
+export RUBY_DECOMP_ROOT="$ROOT"
+export PATH="$BIN:$AGBCC_DIR:\$PATH"
+ENV
+}
+
+install_optional_ghidra_note() {
+    if (( ! WITH_GHIDRA )); then
+        return
+    fi
+    if have ghidraRun; then
+        log "Ghidra is already available"
+        return
+    fi
+    warn "Ghidra is optional and not auto-downloaded. Current Ghidra 12.1.x requires JDK 25; install JDK 25 and the official Ghidra release, then expose ghidraRun on PATH."
+}
+
+install_base_and_arm
+install_agbcc
+install_mgba
+write_env
+install_optional_ghidra_note
+
+exec python3 "$ROOT/tools/check_decompilation_env.py"
