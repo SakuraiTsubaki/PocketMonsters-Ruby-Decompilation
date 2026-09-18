@@ -10,6 +10,17 @@
 
 The repository name is a working label, not proof of a particular binary. No address, symbol, format, or behavior should be treated as target fact until the exact build is identified.
 
+## Language priority
+
+Research, source selection, reconstruction, comparison, naming, and implementation decisions follow this language order:
+
+1. **Japanese** — primary/origin reference.
+2. **Korean** — second priority when an official Korean version exists.
+3. **English** — fallback when no official Korean version exists.
+4. **Other official languages** — evaluated after Japanese, Korean, and English.
+
+This order is a project policy, not a claim that every title has an official release in every listed language. For titles without an official Korean release, use Japanese first and English second, then the remaining official languages.
+
 ## Identity checklist
 
 Record all available items before substantive reconstruction:
