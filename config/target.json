@@ -7,5 +7,17 @@
   "release": null,
   "region": null,
   "revision": null,
+  "language_priority": [
+    "ja",
+    "ko",
+    "en",
+    "other"
+  ],
+  "language_fallback_policy": {
+    "primary": "ja",
+    "secondary": "ko",
+    "when_korean_unavailable": "en",
+    "remaining": "other_official_languages"
+  },
   "hashes": []
 }
