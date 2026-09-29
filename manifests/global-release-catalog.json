@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/import_release_catalog.py"
+  },
+  "inputs": [
+    {
+      "repository": "SakuraiTsubaki/PocketMonsters-Ruby-Disassembly",
+      "path": "analysis/ruby-global-release-catalog.json",
+      "sha256": "b58608b093c2411ff34a66e220c00748e9937677f20f1fd3bde42175448ac4f2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    }
+  ]
+}
