@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "target": {"release":"AXVJ-rev0","sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"},
+  "functions": ["InitKeys","ReadKeys"],
+  "outputs": [
+    {"path":"src/key_input.c","sha256":"ab0ecd60cd41e341e42da3dbe16732007f9af2d1fc240d7ac3beb3b41f8e3a19"},
+    {"path":"analysis/ruby-jp-key-input-map.json","sha256":"1d6412d36f1d4232d2d43b30a466a9b30b3f41c77a624544cef5143446e4c9a8"},
+    {"path":"research/key-input-reconstruction.md","sha256":"5bedcefba1cdaed953f52788b93509933fbea72358e93660e0994bdb17753a55"}
+  ],
+  "raw_rom_bytes_included": false
+}

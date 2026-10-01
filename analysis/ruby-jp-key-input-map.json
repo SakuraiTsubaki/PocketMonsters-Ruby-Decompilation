@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "target": {"release":"AXVJ-rev0","sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"},
+  "source": "src/key_input.c",
+  "functions": [
+    {"name":"InitKeys","address":134218756,"range_end_exclusive":134218784},
+    {"name":"ReadKeys","address":134218796,"range_end_exclusive":134218944}
+  ],
+  "literal_addresses": {"REG_KEYINPUT":"0x04000130","KEYS_MASK":"0x03FF","gMain":"0x030016E0","gSaveBlock2":"0x02024C04","gKeyRepeatContinueDelay":"0x03001B1C","gKeyRepeatStartDelay":"0x030016D0"},
+  "proven_offsets": {"heldKeysRaw":40,"newKeysRaw":42,"heldKeys":44,"newKeys":46,"newAndRepeatedKeys":48,"keyRepeatCounter":50,"watchedKeysPressed":52,"watchedKeysMask":54,"optionsButtonMode":19},
+  "constants": {"repeat_continue_delay":5,"repeat_start_delay":40,"l_button":512,"a_button":1,"l_equals_a_mode":2},
+  "naming_basis": {"repository":"pret/pokeruby","commit":"5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f","path":"src/main.c","match_kind":"instruction order, branches, literals and state accesses","raw_rom_bytes_published":false}
+}
