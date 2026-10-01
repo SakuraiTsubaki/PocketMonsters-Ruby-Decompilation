@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "ruby-jp-agb-main-reconstruction",
+  "input": {"release":"AXVJ-rev0","size":8388608,"sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852","cfg":"analysis/ruby-jp-thumb-entry-cfg.json"},
+  "outputs": [
+    {"path":"analysis/ruby-jp-agb-main-map.json","sha256":"36aca22d8af89f8f26af949015beb566f69bfe390cee84a91a7f45ae455e06ed"},
+    {"path":"src/main_loop.c","sha256":"1972d2636b5c62701a11c0555949c815f18f1153db0948193546233845e82a26"},
+    {"path":"research/agb-main-reconstruction.md","sha256":"4cdab3ea53ab0b6d88366af8504c13ce7c960e936a66cd2ce24d9485d702ed75"}
+  ],
+  "verification": {"test":"tests/test_agb_main_reconstruction.py","raw_rom_bytes_published":false}
+}
