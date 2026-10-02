@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXVJ-rev0",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "functions": [
+    "InitIntrHandlers",
+    "SetVBlankCallback",
+    "SetHBlankCallback",
+    "SetVCountCallback",
+    "SetSerialCallback"
+  ],
+  "outputs": [
+    {
+      "path": "src/interrupt_init.c",
+      "sha256": "b66c25d8722bc3eb62558d44d0603cab5fe8e651915fa88f34dfa164e67157ae"
+    },
+    {
+      "path": "analysis/ruby-jp-interrupt-init-map.json",
+      "sha256": "4ce0de0295d87088e9145363a81e25ae7b3cc02b344d7ab3aa766a0ae9b2ae96"
+    },
+    {
+      "path": "research/interrupt-init-reconstruction.md",
+      "sha256": "caee58c2455db3728f499c6c9bce5f9092e44388e3e1d3af77fba33f65b7a325"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
