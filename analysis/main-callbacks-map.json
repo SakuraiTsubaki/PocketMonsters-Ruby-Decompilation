@@ -1,1 +1,47 @@
-{"schema_version":1,"target":{"release":"AXVJ-rev0","sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"},"source":"src/main_callbacks.c","functions":[{"name":"UpdateLinkAndCallCallbacks","address":134218568,"range_end_exclusive":134218620},{"name":"InitMainCallbacks","address":134218640,"range_end_exclusive":134218662},{"name":"CallCallbacks","address":134218672,"range_end_exclusive":134218702,"indirect_dispatches":2},{"name":"SetMainCallback2","address":134218708,"range_end_exclusive":134218724}],"proven_offsets":{"gMain.heldKeys":44,"gMain.callback1":0,"gMain.callback2":4,"gMain.state":1080},"naming_basis":{"repository":"pret/pokeruby","path":"src/main.c","match_kind":"control-flow, literal-address and data-access equivalence","raw_rom_bytes_published":false}}
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXVJ-rev0",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "source": "src/main_callbacks.c",
+  "functions": [
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "address": 134218568,
+      "range_end_exclusive": 134218620,
+      "bytes_sha256": "be75cee8aa9485b65536cd7f369cbfde8da630f971a1acb4a74e9d051e08129a"
+    },
+    {
+      "name": "InitMainCallbacks",
+      "address": 134218640,
+      "range_end_exclusive": 134218662,
+      "bytes_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+    },
+    {
+      "name": "CallCallbacks",
+      "address": 134218672,
+      "range_end_exclusive": 134218702,
+      "indirect_dispatches": 2,
+      "bytes_sha256": "3a3741b7867997d0524f4b9c36c289c0a36f13b89ca073f6a2d630c6a6f53d0b"
+    },
+    {
+      "name": "SetMainCallback2",
+      "address": 134218708,
+      "range_end_exclusive": 134218724,
+      "bytes_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+    }
+  ],
+  "proven_offsets": {
+    "gMain.heldKeys": 44,
+    "gMain.callback1": 0,
+    "gMain.callback2": 4,
+    "gMain.state": 1080
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "path": "src/main.c",
+    "match_kind": "control-flow, literal-address and data-access equivalence",
+    "raw_rom_bytes_published": false
+  }
+}
