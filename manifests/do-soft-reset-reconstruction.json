@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXVJ-rev0",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "function": "DoSoftReset",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+  },
+  "outputs": [
+    {
+      "path": "src/do_soft_reset.c",
+      "sha256": "eab0a27e2821fca27d2f65333ad11e3e729ed2d516556ef098458f57805be391"
+    },
+    {
+      "path": "analysis/ruby-jp-do-soft-reset-cfg.json",
+      "sha256": "b73e6ea20ebf04ddab1e1d8969200e77314d603ac4436f9279969b303d1e82ee"
+    },
+    {
+      "path": "analysis/ruby-jp-do-soft-reset-map.json",
+      "sha256": "38ee57d6f55ce67e67a3b3f70a2ce5403b2f48a8d486092c203432bc0715cc89"
+    },
+    {
+      "path": "research/do-soft-reset-reconstruction.md",
+      "sha256": "e23641a9592b76586b0cf6564513e8508956b6d3609951840863bf7f66c035eb"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
