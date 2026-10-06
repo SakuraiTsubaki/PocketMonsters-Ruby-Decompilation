@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXVJ-rev0",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "function": "WaitForVBlank",
+  "outputs": [
+    {
+      "path": "src/wait_for_vblank.c",
+      "sha256": "28eb2f302cb9c208bda9d4f47c73b7bed68122ae3bc598cdca18310363b2dafc"
+    },
+    {
+      "path": "analysis/ruby-jp-wait-for-vblank-cfg.json",
+      "sha256": "5cc607a2b052cc8b7b19904b016b5f718c6995397b55cc26dc311f8e37b75466"
+    },
+    {
+      "path": "analysis/ruby-jp-wait-for-vblank-map.json",
+      "sha256": "1803eeb2d4bbcd46b1b5f7bd5d661a31bc71671c6bd103ba94d5c8242ee67e85"
+    },
+    {
+      "path": "research/wait-for-vblank-reconstruction.md",
+      "sha256": "dd848bb4f41aade412b180ad81a84afed1f362c337aca34348018a3572254c5b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
