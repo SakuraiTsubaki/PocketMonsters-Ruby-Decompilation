@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXVJ-rev0",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "function": "SeedRngWithRtc",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+  },
+  "outputs": [
+    {
+      "path": "src/seed_rng_with_rtc.c",
+      "sha256": "ff21463ac81ed1b18bd43f492cc5cf148161a80b8d15b1b7a26531a14da687c7"
+    },
+    {
+      "path": "analysis/ruby-jp-seed-rng-with-rtc-cfg.json",
+      "sha256": "c11bf99de5663a6875c82c8124f81fbe0fdf8a723cc8539f7f694ef40958fb6d"
+    },
+    {
+      "path": "analysis/ruby-jp-seed-rng-with-rtc-map.json",
+      "sha256": "85c04656667be9192e443f60d2e37cbdefa309b503518268d3dbae315390d2d5"
+    },
+    {
+      "path": "research/seed-rng-with-rtc-reconstruction.md",
+      "sha256": "0042680bc3d95657a8114ef4a774971fbe282f55929e3a0cfc2502eeba7d31a1"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
