@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXVJ-rev0",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "function": "InitMapMusic",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+  },
+  "outputs": [
+    {
+      "path": "src/init_map_music.c",
+      "sha256": "a77e2d4b7e6f31022d0f181e7406bfe6a0196c1238d881d0c944fd431056b2be"
+    },
+    {
+      "path": "analysis/ruby-jp-init-map-music-cfg.json",
+      "sha256": "4286869338685b5fd4f34c435c4f68ae0ad65dde7430435c76688a5f0829a029"
+    },
+    {
+      "path": "analysis/ruby-jp-init-map-music-map.json",
+      "sha256": "cc35faf4469dfe36d4a0be7c8de18dbac88a0bea6655e4241425c494508eb179"
+    },
+    {
+      "path": "research/init-map-music-reconstruction.md",
+      "sha256": "b61b42275fddcfb9c3f690a1b2a83ffab169f33c1cbec0bec4d69fda06b4bd5c"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
