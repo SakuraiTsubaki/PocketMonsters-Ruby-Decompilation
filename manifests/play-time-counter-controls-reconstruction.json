@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXVJ-rev0",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "functions": [
+    "PlayTimeCounter_Reset",
+    "PlayTimeCounter_Start",
+    "PlayTimeCounter_Stop",
+    "PlayTimeCounter_SetToMax"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/play_time_controls.py",
+    "tool_sha256": "5227a1f41c4d086c105df68cc4256e327c984fc0bad4ace3f31e53e178f49913"
+  },
+  "outputs": [
+    {
+      "path": "src/play_time_counter.c",
+      "sha256": "2cfff7e16ebb07c522655d03bcee238c782952512677eab212fb0f6d8b223ef8"
+    },
+    {
+      "path": "analysis/ruby-jp-play-time-counter-reset-cfg.json",
+      "sha256": "d6a59ab02b415a5967857037da48241a0adb4406cce4abded2db05105c03de1f"
+    },
+    {
+      "path": "analysis/ruby-jp-play-time-counter-start-cfg.json",
+      "sha256": "0a0d6c61106209838055976847568da871412fd552e53f9fc4c92d048f490e57"
+    },
+    {
+      "path": "analysis/ruby-jp-play-time-counter-stop-cfg.json",
+      "sha256": "1f601025e48847283cb460690cf2cbb04f3f70a97e40937bc78456fa49a0e62c"
+    },
+    {
+      "path": "analysis/ruby-jp-play-time-counter-set-to-max-cfg.json",
+      "sha256": "a707b38e1ad30a1973f73e41179e1a9f119e27407a9026e38c24a8991e2d9504"
+    },
+    {
+      "path": "analysis/ruby-jp-play-time-counter-controls-map.json",
+      "sha256": "10302fc3f9da4a170d5365aff204f9b5df37cde8ac26c8f84c3be4d9c050dada"
+    },
+    {
+      "path": "research/play-time-counter-controls-reconstruction.md",
+      "sha256": "9c059e6986cb95134b4f27a7448b74a6d0431fc81bf241f9371901780da3c0fb"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
