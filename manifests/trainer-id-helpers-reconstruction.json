@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXVJ-rev0",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "functions": [
+    "write_word_to_mem",
+    "copy_word_to_mem"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/trainer_id_evidence.py",
+    "tool_sha256": "0bf739244be88d5fd9b18ca8412a7bfacbdcaeeaff9f5db7612522b22324a9ad"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id.c",
+      "sha256": "2370ec775e2129a8c5b48a74427e1e3727bb6a88860af6db5fbfc65d4baef097"
+    },
+    {
+      "path": "analysis/ruby-jp-write-word-cfg.json",
+      "sha256": "caa17e389b383315ce17b36b2030ac1c8a69c1d773f201c35cdfad349dee55e7"
+    },
+    {
+      "path": "analysis/ruby-jp-copy-word-cfg.json",
+      "sha256": "1b1ec161ae2ea660f30b59a336d3096ab0a346746d6cb4747dcb92289fb0871a"
+    },
+    {
+      "path": "analysis/ruby-jp-trainer-id-helpers-map.json",
+      "sha256": "5d8fbd81a9413db8c80775c52097870b54fad536f2083e9707e59d2982dc6628"
+    },
+    {
+      "path": "research/trainer-id-helpers-reconstruction.md",
+      "sha256": "e7558f46a1291486e040b34a408aea4711f17fdc242169cdc8825ab6498000d3"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
