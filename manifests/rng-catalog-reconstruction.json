@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Ruby",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/build_rng_catalog_evidence.py",
+    "tool_sha256": "72af44ce3a8ee14fc14808966b9e9059bd0b7dbc7db93fe58761265a9b0b8c46"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "ff32746a1403605314d59ef105024de6ff2c3df224b977ca2db52470020af84b"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "analysis/ruby-jp-rng-map.json",
+      "sha256": "8d3b5f0d801a8f91f1c1278763736e1fa855adc61445b198395e1469a1fe6c0c"
+    },
+    {
+      "path": "analysis/ruby-jp-random-cfg.json",
+      "sha256": "b9eb781f149d2226553f9757dfc00ae530729cabcfcd43fdc8159154a2cbc840"
+    },
+    {
+      "path": "analysis/ruby-jp-seed-rng-cfg.json",
+      "sha256": "3717d9d5ee7e029cf06c78a8998d3995d8a73db24053e9a719c19de3b6b4e4b6"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-rng-map.json",
+      "sha256": "365b5365c5b379166674977f4f768c64e3477eb0dbc5368d5a01bb372bb793ea"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-random-cfg.json",
+      "sha256": "e1d482f888caa31b2499dc14df368e52c6a1673229bddf32a6f8977455e79cba"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-seed-rng-cfg.json",
+      "sha256": "eb1a65ccbe7ea43ee2421bed37fd7be99cfae626999c85ba715b83d6e021f3ce"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-rng-map.json",
+      "sha256": "177bb54afb212988124dc44d0d3f7b9355a02c434e8fb59ea9238e82501ade80"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-random-cfg.json",
+      "sha256": "e1e78e3b3737a189d324fe3a9bf36095ac37c50f0ed0ac1c549ef53d0bf9d7fd"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-seed-rng-cfg.json",
+      "sha256": "315c42b820e92aab164e8a3e9699a886e31dc673dcfa2c023b1c68f64a261aee"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-rng-map.json",
+      "sha256": "95ad3f5033fd2a047df8c6edad98c454de98355d39296102c6e38d43579b6391"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-random-cfg.json",
+      "sha256": "291d7a801aa780decdc7823c28fe6cee434688288de9f7095006d5f55f1c5f54"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-seed-rng-cfg.json",
+      "sha256": "bf20d66ee0a6a95f75e1a48729ce0c4e0aae0a74dbfa96eed0cf993d2b1d3e92"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-rng-map.json",
+      "sha256": "26c0a2691544f585f1923887e265b0ad0ca2917eedc0a577e2585e497b679e35"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-random-cfg.json",
+      "sha256": "a50d20951a1b02ded5058fc75f0d3cc91735739e29b9cab90d5f5cdfdbf75e57"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-seed-rng-cfg.json",
+      "sha256": "a17145c414e268485cf6016e32a82d65a953e8b1074f0a8c074592a517473b9c"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-rng-map.json",
+      "sha256": "5d9b3feea5d8670e8c812cc7ddf3b6d126b3c4b7a1f64977e4a9a653de960c60"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-random-cfg.json",
+      "sha256": "1910ec00e229df54fcd80632882d62e4ec6e729e5225ee4dd9ef0f8856f5c3a6"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-seed-rng-cfg.json",
+      "sha256": "56273be0c3bca335127a17e01a75ee6c4947400f4efc1c5bd18724396fb49596"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-rng-map.json",
+      "sha256": "c68b813d6553c46526bbc5a727d64bda8681ecada75c70fb6d6fb460f7e62fa8"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-random-cfg.json",
+      "sha256": "aec0a1c8209fefbe973b2023f390f0e4dba6a793b6ebd3e24992545e07bd50a5"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-seed-rng-cfg.json",
+      "sha256": "05d56c771a28832f8775856841395c5d0d8067440022e17fdbe26eb2bb878b29"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-rng-map.json",
+      "sha256": "1886fb6ddbd59bed7b10512ab442a609ec339f69c1dfd41e3d1cfffabe8df99b"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-random-cfg.json",
+      "sha256": "501b6de1592c0d52310907beeb1c46781a4f47120fd1c9843cd5bb18d626fcc3"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-seed-rng-cfg.json",
+      "sha256": "cbbad444ec2ffccf694b56132b4fc806df0dffc497685b9cec3ae0c6039215da"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-rng-map.json",
+      "sha256": "686c2a8295ace93d1fe547dd146acc595b884791b733f23e7631121a0a762008"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-random-cfg.json",
+      "sha256": "651eac452949e6d0bb8eeef14883b006677a9e46246e9a2bcbde04095803b358"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-seed-rng-cfg.json",
+      "sha256": "5e0192f6e9697de4a7dc9d9bb5a00a07c023d6b3938bd2807030f302a0621fa3"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-rng-map.json",
+      "sha256": "0302b14b4b8120147bc63ad2603fadc81146e792ec4801e3abd10283f694a59e"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-random-cfg.json",
+      "sha256": "f16cd392f042fde90c0883b216c9b2e7637f15d7c5b1dfd2c61bd41e26e412d6"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-seed-rng-cfg.json",
+      "sha256": "812f6bb926ae2406daec0c9359d46ff98bbdb9546763297b350e7946517ec0fb"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-rng-map.json",
+      "sha256": "75a64237278daff12c0e23c6758fc02d1659279549f52a19bc4a862739ed241b"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-random-cfg.json",
+      "sha256": "f591f06e481f05b3b2ee1cc888154d4038e101b7f63f851adb0f20bcc686ee55"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-seed-rng-cfg.json",
+      "sha256": "897cdbafedd61b22d559b296747beaff4d6361d06070002989fa6e1c6d0e0e09"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-rng-map.json",
+      "sha256": "75c1743d61c59f71b7f41fca3238564ea7fed78401ad2ae319e52455408070f1"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-random-cfg.json",
+      "sha256": "4ed01afcac371ef80ed8da6282f0e4777c51b9a26e01454e3e567f7cd9626fcc"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-seed-rng-cfg.json",
+      "sha256": "18ae27a2b700f5affb06bdbf1451e6351923925ffbae36765638e9653b69b5d8"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-rng-map.json",
+      "sha256": "ebdb2f9d5e3f10868a9927b576dd231374974e7be57083bd8c4ab98e04eeb410"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-random-cfg.json",
+      "sha256": "97418271ad83afa1485193c5dbc35127c54875657e24180f0ba4cf340adc0798"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-seed-rng-cfg.json",
+      "sha256": "f40b3aac9f939affaaca19fc8fc22b2fa2e00f6a74197cea8840b5648ba1c904"
+    },
+    {
+      "path": "analysis/rng-catalog-summary.json",
+      "sha256": "e3efc723fba59926957c7d1cfed410457bce11f51acfbdee4189898ccccf08e9"
+    },
+    {
+      "path": "research/rng-catalog-reconstruction.md",
+      "sha256": "2f97b6b0ab70f2516fcfcbc2eefc9da3d82ae3354245a0f1c7fc569a93454d08"
+    },
+    {
+      "path": "tests/test_rng_catalog_reconstruction.py",
+      "sha256": "e97af46c5b628a00b14d650078e8fe881112f2218f4f6b3da93134e49fc33240"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
