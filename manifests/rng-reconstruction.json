@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "AXVJ-rev0",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  },
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rng_evidence.py",
+    "tool_sha256": "d9f9b2fcb21f66910714eaf4cbe1aa36f6714ab11dd9c833926fa392a6cf2254"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "ff32746a1403605314d59ef105024de6ff2c3df224b977ca2db52470020af84b"
+    },
+    {
+      "path": "analysis/ruby-jp-random-cfg.json",
+      "sha256": "b9eb781f149d2226553f9757dfc00ae530729cabcfcd43fdc8159154a2cbc840"
+    },
+    {
+      "path": "analysis/ruby-jp-seed-rng-cfg.json",
+      "sha256": "3717d9d5ee7e029cf06c78a8998d3995d8a73db24053e9a719c19de3b6b4e4b6"
+    },
+    {
+      "path": "analysis/ruby-jp-rng-map.json",
+      "sha256": "8d3b5f0d801a8f91f1c1278763736e1fa855adc61445b198395e1469a1fe6c0c"
+    },
+    {
+      "path": "research/rng-reconstruction.md",
+      "sha256": "caec7639e93baca891730b8e5c680adca4ee37a43dba5cc337146e4e79834a2c"
+    },
+    {
+      "path": "tests/test_rng_reconstruction.py",
+      "sha256": "12518b4180109d1422f5f64d91515028d7ccba2533a8fc2623c16dd5c2e0ba3f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
