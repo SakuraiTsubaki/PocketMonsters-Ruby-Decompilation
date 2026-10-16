@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Ruby",
+  "origin_reference": "Japanese",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/trainer_id_matrix_evidence.py",
+    "tool_sha256": "299f4bbf557afb9ff052ce1792eec0da4495f1738c7f8188e45ec25f119d5d7f"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id.c",
+      "sha256": "2370ec775e2129a8c5b48a74427e1e3727bb6a88860af6db5fbfc65d4baef097"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "analysis/ruby-jp-trainer-id-helpers-map.json",
+      "sha256": "5d8fbd81a9413db8c80775c52097870b54fad536f2083e9707e59d2982dc6628"
+    },
+    {
+      "path": "analysis/ruby-jp-write-word-cfg.json",
+      "sha256": "caa17e389b383315ce17b36b2030ac1c8a69c1d773f201c35cdfad349dee55e7"
+    },
+    {
+      "path": "analysis/ruby-jp-copy-word-cfg.json",
+      "sha256": "1b1ec161ae2ea660f30b59a336d3096ab0a346746d6cb4747dcb92289fb0871a"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-trainer-id-map.json",
+      "sha256": "0cd63dd99d48e2dba84fce1877ee72909ffaca9553b6af063584f8ea82fcb895"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-write-word-cfg.json",
+      "sha256": "856fc6a3fd49d80a82112cc00c67fcd30f055f78cc15d49fa943a128819c136b"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-copy-word-cfg.json",
+      "sha256": "9046789f6a56e5f632112293c43dda519b79dde73299801d04bc29cd5030779d"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-trainer-id-map.json",
+      "sha256": "ed9323b56866ad61f2d204f96ae5b2c920388b902e157dc0e1dde358a041dd88"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-write-word-cfg.json",
+      "sha256": "f92d6eeff252f509f46d8a016cb411b7f60b4aafca99afdc9f08f500dd392937"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-copy-word-cfg.json",
+      "sha256": "e28c3da01db744daf23b83d3de365713b0d5ad49bb0908bb4be6e5913824b4df"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-trainer-id-map.json",
+      "sha256": "74561542faba6926678b74bcedf2380eba03b075352ef78eda6cc715bfa62d2c"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-write-word-cfg.json",
+      "sha256": "9e8eeca06416c36a7d865b485f24774f4ce4618ac6573061e3b210a14bba8584"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-copy-word-cfg.json",
+      "sha256": "953db3ce31ab8634cee7722195c16621348ac1f27c2126bfe54e1ec3b116b58c"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-trainer-id-map.json",
+      "sha256": "78231ffddb31c4b5a216ff0be75fd1a572414152a324f19d8607ce627af21f86"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-write-word-cfg.json",
+      "sha256": "e3a009db387a8d36a69a8df9366b8e7e36b13dc07e9e2f03bb2664a646949bd4"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-copy-word-cfg.json",
+      "sha256": "a25d4d6a28fe3bc133125d6e5344dd1f98a98ed59a74e09409b3e6391732d41c"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-trainer-id-map.json",
+      "sha256": "f311158f04022e670ee5ab81e890de0b537eb7284bae40d9e567d3eff4fc5b59"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-write-word-cfg.json",
+      "sha256": "1463a7ad413f807043bb43bdc059bd9831d320b6624e7a32345750ae6ae7df80"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-copy-word-cfg.json",
+      "sha256": "674cef8cc7db7efa3ff7a2b8b13b63e28520461a998af24fc5f860f3072ca9e8"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-trainer-id-map.json",
+      "sha256": "c546250b21608c18b7f64bdfe59f2f046e599630076a01aac556c8580a861117"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-write-word-cfg.json",
+      "sha256": "43d1d5a61476d1aece45eb50b68588084b0c6c0f506b703ae7d92bac6500cbc2"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-copy-word-cfg.json",
+      "sha256": "4f4baf87f2c648b32175426f4ab915f36605b7aceff429da2bc073b959cae1a6"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-trainer-id-map.json",
+      "sha256": "ba55526ce543b73e6f24b4af8e14d8cff5d1753c4082dd47120ce83a0d4d7261"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-write-word-cfg.json",
+      "sha256": "c6e12176fa48e6199b526eb63848ba10651bca813add451b2f1a514b00f0b54e"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-copy-word-cfg.json",
+      "sha256": "b37f62386c873515dda46cfcbe4ae28ceea2c9f9a8f249e4574fdcdf344b73a4"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-trainer-id-map.json",
+      "sha256": "8553304d5bc1a2600b5fa91031bcfabe10e725764e19b0e95a3f706b83bf5052"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-write-word-cfg.json",
+      "sha256": "39abe37779e87c5e693d5fb1a25d2a84141adbbaad266f839bd8cdd6b95d35ac"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-copy-word-cfg.json",
+      "sha256": "68eb2571e8bd4d21f0ae531950644c43c2d6fb0e139d0bae6f3c74a08f5db7e0"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-trainer-id-map.json",
+      "sha256": "dcd77ef1980655c25dfc864a0160f64495c66fa907decde7d27999f645cd7b94"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-write-word-cfg.json",
+      "sha256": "d268185a17f28b96b615ada9def21ab0ec9f0041276b74a716119400c460faac"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-copy-word-cfg.json",
+      "sha256": "c464a9d2d566653b650f798d92ee332cded08a25f6aac34d99bc5f336d5064c1"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-trainer-id-map.json",
+      "sha256": "280c3ca3f60a15680b84a9194fa31464f315f9309f15d6ea776e3a11038c5f2e"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-write-word-cfg.json",
+      "sha256": "a637208261269865ecc8aef6d29a624ad02342275f921ae3169c190d5d620db9"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-copy-word-cfg.json",
+      "sha256": "67266d914387546f19175365f1e166210577a6f484cf5731ab3ac7b83001f309"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-trainer-id-map.json",
+      "sha256": "baa28fd040db4f8d9880de365c2cf334e1f400c86cbc500e8dd2d12c6b8f8382"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-write-word-cfg.json",
+      "sha256": "fbaa41f76080a978371d5769be3fa2dcd9fbce14eb537aab46aea502477c7947"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-copy-word-cfg.json",
+      "sha256": "b7bd55556baa1635e0151177dca6248e1a4b14e368b536f97283e742a0b30e81"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-trainer-id-map.json",
+      "sha256": "e6b40332c18552cb318afa7a267f494068ba57c089a6d5d60b02058fc623315a"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-write-word-cfg.json",
+      "sha256": "6f602c5098da7f77e342ccc22fa09a09bfbb0cd48b704f32a5fe482d6dc92b1a"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-copy-word-cfg.json",
+      "sha256": "3bf2d1c8ac6a0f8ffc31eb009d2043a1b8f206c48a2fb9864a47636f087b5ae1"
+    },
+    {
+      "path": "analysis/trainer-id-catalog-summary.json",
+      "sha256": "72fe698d586dbd22405317eb522437b2ea02cae3ca268f91f2e1dd20794fba30"
+    },
+    {
+      "path": "research/trainer-id-catalog-reconstruction.md",
+      "sha256": "8a047faa350c7501cceaa57701e9e2d09001113b09d4d8ceca9e4a61a55de46c"
+    },
+    {
+      "path": "tests/test_trainer_id_catalog_reconstruction.py",
+      "sha256": "05baa2384f48f43803fc941f0b47b3c95add47811dba82d866bd753f27838553"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
