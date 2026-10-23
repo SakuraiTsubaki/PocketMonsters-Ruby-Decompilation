@@ -16,7 +16,7 @@
     },
     {
       "path": "analysis/ruby-jp-wait-for-vblank-map.json",
-      "sha256": "1803eeb2d4bbcd46b1b5f7bd5d661a31bc71671c6bd103ba94d5c8242ee67e85"
+      "sha256": "4068b9ddd5748ee91aadd6ed5e299b99d92c2e2e49e0967be174393fe7cbe882"
     },
     {
       "path": "research/wait-for-vblank-reconstruction.md",
@@ -25,4 +25,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

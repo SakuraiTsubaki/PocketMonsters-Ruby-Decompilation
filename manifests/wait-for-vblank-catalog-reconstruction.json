@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Ruby",
+  "function": "WaitForVBlank",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/wait_for_vblank_catalog.py",
+    "tool_sha256": "7b24532de6cced1166ae9962530aa3bee786e1e45b6e790b4e275ac08ef2b4ed"
+  },
+  "outputs": [
+    {
+      "path": "src/wait_for_vblank.c",
+      "sha256": "28eb2f302cb9c208bda9d4f47c73b7bed68122ae3bc598cdca18310363b2dafc"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "dca8350c167de9f0810d7138bc3a90e9adc47c8009fa51db215c32e14aa9edb5"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "28b467e08bc811ca79fe68e22934d985b75b604638d1fa6fe0d04387f34e7222"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "652bbe1244dd163e89fb135d86c396b88ca730d2ea4aa23393a998795eab7eff"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "35d94b323371f18b693a9497bbd92a54e5181f93028b0950619a498305f54411"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-wait-for-vblank-cfg.json",
+      "sha256": "808690200d289b75b18919d1413749b03807bec8adf2b4918ed5adb815a2ac0a"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-wait-for-vblank-map.json",
+      "sha256": "174706cd1bfc1a4d189d8c649cb55d44d065d22c352eaa42277e47b8fde418f8"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-wait-for-vblank-cfg.json",
+      "sha256": "91680b2f41a822e783674bc52f5c866d16ccbb1ee6b964ed1ec1bf64f7f4fb8b"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-wait-for-vblank-map.json",
+      "sha256": "da0b963ea6e12a923c892696701f170327244a891d3b4613b7bbe98381778b54"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-wait-for-vblank-cfg.json",
+      "sha256": "735973b1bbfdcccf498e684df6536e9604f7e423e0cfcbf1cbc278a9e8ede50f"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-wait-for-vblank-map.json",
+      "sha256": "73d71fd52015107b157ee86317e69bf2810fef899117d02bf8941080eaf760cd"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "7d77295d5d55ad9182d70190a455c8689b649b32c6c889099f4442cd9c946665"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "6311964f85717716eb37e5daf31034d27087232e926d31f5480a8168bad9b050"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-wait-for-vblank-cfg.json",
+      "sha256": "9adf35c10ba79f4c20b30cff6ad7a07563476a8b886f13cbf1a343810e9b8495"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-wait-for-vblank-map.json",
+      "sha256": "764c270feb5f34c9185cea5775b51ac1590e7e62cd08b3a748dd3d0a741105a6"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "15cff1ea9b638053e88311912ceea2704135a98eab0e1d8a8e07e72bbee0c2a4"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "f08e32093ce791d92e1768ffd1a4bc562b2b3b640d3ee45567bdc35e882102bf"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-wait-for-vblank-cfg.json",
+      "sha256": "0c20e40e648176d70d1bea646b5cffbdbfea9d49ae2b8f0b850462e7bddcb907"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-wait-for-vblank-map.json",
+      "sha256": "b734265826ecb31d9b70b7eb22912ed41f05142845d070833c7626e5548bdd83"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "58e178736bbc61356f7d59e9ef66ef34bde5b8f53f4608ee1825771d0942829c"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "a272ae6fff26db6c60cb3c7d381eff70d7300133ad053274e106d4756e20a2f2"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-wait-for-vblank-cfg.json",
+      "sha256": "472bdc042f5ba7b0fa09495c80a65043d357ec9b5800e2a9fd8ffade69bb4058"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-wait-for-vblank-map.json",
+      "sha256": "1183485092b565a422d0a5d64cd96795320dcfa44bd4ebf6cb2a930e552e4c44"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "20354d89b87e522313c2afdca7d3d6cd98598f349e06c6226555f0c7f12e5d06"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "ed0b6bb53c9ed458ceb7c1d8efc9327061a029f487ef6b53c9a538d67e33ea2f"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-wait-for-vblank-cfg.json",
+      "sha256": "154e88648c9291958d034a813e7e73cb81fed4629bf9f69ef8fe28d647f23d13"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-wait-for-vblank-map.json",
+      "sha256": "8d74bbe89ddf1aff149af5cb0b891439af843ea51d1bb7890a0f1e65b2828921"
+    },
+    {
+      "path": "analysis/ruby-jp-wait-for-vblank-map.json",
+      "sha256": "4068b9ddd5748ee91aadd6ed5e299b99d92c2e2e49e0967be174393fe7cbe882"
+    },
+    {
+      "path": "manifests/wait-for-vblank-reconstruction.json",
+      "sha256": "34ba8d726a8fdb3e7b192b0f7dff7afe3f308f66dcf5352936a8e0419ec131a1"
+    },
+    {
+      "path": "analysis/wait-for-vblank-catalog-summary.json",
+      "sha256": "ff5246f85ff2230597fa961f79ea669101398cfaa6588154523bb6a02d9ddae0"
+    },
+    {
+      "path": "research/wait-for-vblank-global-reconstruction.md",
+      "sha256": "6b1cb384a0f4e61a72b9b966be5f11d39b5790e194bfa465593e0da40f792c01"
+    },
+    {
+      "path": "tests/test_wait_for_vblank_catalog.py",
+      "sha256": "45ebaeadead7e2fd6a3f9adf98c25dae493d1c812d1087b45ff1aa26858738bf"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
