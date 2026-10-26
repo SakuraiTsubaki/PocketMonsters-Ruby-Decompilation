@@ -1,31 +1,86 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXVJ-rev0",
-    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
-  },
+  "game": "Ruby",
   "function": "InitMapMusic",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+    "tool": "tools/map_music_catalog.py",
+    "tool_sha256": "075b0e127192699313a618260cf0906e13374a96d80020a301a022f2644d68cd"
   },
   "outputs": [
     {
       "path": "src/init_map_music.c",
-      "sha256": "a77e2d4b7e6f31022d0f181e7406bfe6a0196c1238d881d0c944fd431056b2be"
+      "sha256": "77ce716a9da752315510cdfadac8328e8631fd9cad3f6c89243b6387c78b0ef9"
     },
     {
-      "path": "analysis/ruby-jp-init-map-music-cfg.json",
-      "sha256": "4286869338685b5fd4f34c435c4f68ae0ad65dde7430435c76688a5f0829a029"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
     },
     {
-      "path": "analysis/ruby-jp-init-map-music-map.json",
-      "sha256": "cc35faf4469dfe36d4a0be7c8de18dbac88a0bea6655e4241425c494508eb179"
+      "path": "analysis/map-music-summary.json",
+      "sha256": "e62afff5887721905f690552d55d426597be254c42571edf608f3b56ff9c0596"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-init-map-music-map.json",
+      "sha256": "e71dae4df0aa0704329a842fa538444618189213aa3b82df59248cdf7bc1bec2"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-init-map-music-map.json",
+      "sha256": "f67de96babacedab4ded65919fabcbd5511bc24b2128900198f58ea9a0f84765"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-init-map-music-map.json",
+      "sha256": "dcf7319dcb2f3e3518494313f1df1377be9f3ee8a906345b0aa51f2bc46173e5"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-init-map-music-map.json",
+      "sha256": "8425fcd98426e30d0ba5d664c75126599a310e72ca921587bdbe5197816e33fa"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-init-map-music-map.json",
+      "sha256": "2fb695df25aaaba6ed0fcee100dd95d0d1dabf5671557e5512308dbd963c9208"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-init-map-music-map.json",
+      "sha256": "eacbeed63a5516460d46dc923cc43ee7f4b3ba755366f684e326bf1d51f354cb"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-init-map-music-map.json",
+      "sha256": "b3dfcb5d70382d3384620ae4f5036bb05e81bd8064f1e96df8d31d5f71b083d0"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-init-map-music-map.json",
+      "sha256": "70d27960b18428459f720fa28875267d79b049b8eaa5c10257fca659a7521578"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-init-map-music-map.json",
+      "sha256": "835c223be81916c72c8eeef0ad4a719cae3210bccc33a22c4df9cf9ea74c8cdc"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-init-map-music-map.json",
+      "sha256": "34044b532a099837edd09ec67cee819e0746522ddbb7ccf8d996ef53b042ff5a"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-init-map-music-map.json",
+      "sha256": "d0e318dc6d4cf8a0382d76bdb622e6c31cf586a524a228f055c024b34c5a5aab"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-init-map-music-map.json",
+      "sha256": "123b5096c389f1d93c242ddc983bafd5bb0e365576f3ff3b913cde7666d88717"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-init-map-music-map.json",
+      "sha256": "c3bf04f5cd4e844765f5b88734c13ff43c8acb743840b13b5f40a291bafcc442"
     },
     {
       "path": "research/init-map-music-reconstruction.md",
-      "sha256": "b61b42275fddcfb9c3f690a1b2a83ffab169f33c1cbec0bec4d69fda06b4bd5c"
+      "sha256": "71201b374abf9466f4eddc74bd531df7c27040f1a27473d1b6c033497b17dd94"
+    },
+    {
+      "path": "tests/test_init_map_music_reconstruction.py",
+      "sha256": "d422c9ca93062c42d39e324f1020118280967df693046d0bc48009ed253337d3"
     }
   ],
   "raw_rom_bytes_included": false

@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "functions": [
+    "InitMapMusic",
+    "MapMusicMain"
+  ],
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "sources": [
+    "src/init_map_music.c",
+    "src/map_music_main.c"
+  ],
+  "releases": [
+    {
+      "id": "axv-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "origin_reference": true,
+      "init_address": "0x08071BE4",
+      "main_address": "0x08071BF8",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "f1309d2c341a9b474b3ff71d97da8f217ddd8cba7ee10219444002db634ad3f9",
+      "evidence": {
+        "init": "analysis/axv-j-rev0-retail-init-map-music-map.json",
+        "main": "analysis/axv-j-rev0-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e",
+      "origin_reference": false,
+      "init_address": "0x08074BAC",
+      "main_address": "0x08074BC0",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "b5285545bbd494b16af22df90c7f93f2dcec117dcbb36e3bad46a65407240b68",
+      "evidence": {
+        "init": "analysis/axv-e-rev0-retail-init-map-music-map.json",
+        "main": "analysis/axv-e-rev0-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0",
+      "origin_reference": false,
+      "init_address": "0x08074BCC",
+      "main_address": "0x08074BE0",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "5ca506862037997824bd130ee3de6159565f9d8cfe6899ec0c955b21d8aa7b30",
+      "evidence": {
+        "init": "analysis/axv-e-rev1-retail-init-map-music-map.json",
+        "main": "analysis/axv-e-rev1-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c",
+      "origin_reference": false,
+      "init_address": "0x08074BCC",
+      "main_address": "0x08074BE0",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "5ca506862037997824bd130ee3de6159565f9d8cfe6899ec0c955b21d8aa7b30",
+      "evidence": {
+        "init": "analysis/axv-e-rev2-retail-init-map-music-map.json",
+        "main": "analysis/axv-e-rev2-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-d-rev0-debug",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "debug",
+      "sha256": "548e9db988d387f8876a0aa40ea1ecb6f1110a8a550413e1861c9656fff7427a",
+      "origin_reference": false,
+      "init_address": "0x0807C1D8",
+      "main_address": "0x0807C1EC",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "f93fc9c9057825499404b687664f4a088da8a0bfc95d034c2cce42fe2cd6847a",
+      "evidence": {
+        "init": "analysis/axv-d-rev0-debug-init-map-music-map.json",
+        "main": "analysis/axv-d-rev0-debug-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "22b28a91be484178236d7f39d64210205698b417394913e089b47796c998fa75",
+      "origin_reference": false,
+      "init_address": "0x08074F6C",
+      "main_address": "0x08074F80",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "eb1a0c576adcedbc93066b0e286641a686b068421868200a033ff5505704e66c",
+      "evidence": {
+        "init": "analysis/axv-d-rev0-retail-init-map-music-map.json",
+        "main": "analysis/axv-d-rev0-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e0b620d576bc503e083bb9d2af1f5ffc40127b84e6ca734e3c45534d0d008043",
+      "origin_reference": false,
+      "init_address": "0x08074F6C",
+      "main_address": "0x08074F80",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "eb1a0c576adcedbc93066b0e286641a686b068421868200a033ff5505704e66c",
+      "evidence": {
+        "init": "analysis/axv-d-rev1-retail-init-map-music-map.json",
+        "main": "analysis/axv-d-rev1-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "160185eb928c649b0bb5cfbda6d3cb5239b474b69c0a6b61d939bbfd546177f7",
+      "origin_reference": false,
+      "init_address": "0x0807505C",
+      "main_address": "0x08075070",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "e87d3466b86a3b6abdb0e64d69a2743141961c6ac3d5ee2348bbfe732a6c489d",
+      "evidence": {
+        "init": "analysis/axv-f-rev0-retail-init-map-music-map.json",
+        "main": "analysis/axv-f-rev0-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "9678645ca67932a42c92b1d6bac118925a6be9f67135ae8fe7747df85cdabdd0",
+      "origin_reference": false,
+      "init_address": "0x0807505C",
+      "main_address": "0x08075070",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "e87d3466b86a3b6abdb0e64d69a2743141961c6ac3d5ee2348bbfe732a6c489d",
+      "evidence": {
+        "init": "analysis/axv-f-rev1-retail-init-map-music-map.json",
+        "main": "analysis/axv-f-rev1-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "61844250fc2766dbab163c84e277c50e3a0b35d6f2defb491a2d38def0ef2ab7",
+      "origin_reference": false,
+      "init_address": "0x08074F80",
+      "main_address": "0x08074F94",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "ca9b27158fbd5977c291d066e8225f788f42b2d239cb9af0c8c8f4980c9ee63a",
+      "evidence": {
+        "init": "analysis/axv-i-rev0-retail-init-map-music-map.json",
+        "main": "analysis/axv-i-rev0-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "be116b6fa8d8c12d7ccff3faefd5defd886faa427ff2c85c06d245cbe4e531b2",
+      "origin_reference": false,
+      "init_address": "0x08074F80",
+      "main_address": "0x08074F94",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "ca9b27158fbd5977c291d066e8225f788f42b2d239cb9af0c8c8f4980c9ee63a",
+      "evidence": {
+        "init": "analysis/axv-i-rev1-retail-init-map-music-map.json",
+        "main": "analysis/axv-i-rev1-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b03c3d0230889a40615371bd616f02160dd1e33bb116659d72d98c27462c40d0",
+      "origin_reference": false,
+      "init_address": "0x08075068",
+      "main_address": "0x0807507C",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "134828e96194bee3e8f422845a2c4e4005df66589cfda7486a76356d47be4880",
+      "evidence": {
+        "init": "analysis/axv-s-rev0-retail-init-map-music-map.json",
+        "main": "analysis/axv-s-rev0-retail-map-music-main-map.json"
+      }
+    },
+    {
+      "id": "axv-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0db39958c19abcedc7670fb16fd3274a5b205df794eb7491bea0580aa752e095",
+      "origin_reference": false,
+      "init_address": "0x08075068",
+      "main_address": "0x0807507C",
+      "init_code_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "main_code_sha256": "134828e96194bee3e8f422845a2c4e4005df66589cfda7486a76356d47be4880",
+      "evidence": {
+        "init": "analysis/axv-s-rev1-retail-init-map-music-map.json",
+        "main": "analysis/axv-s-rev1-retail-map-music-main-map.json"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
