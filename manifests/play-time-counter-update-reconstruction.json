@@ -1,31 +1,87 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXVJ-rev0",
-    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
-  },
+  "game": "Ruby",
+  "profile": "direct",
   "function": "PlayTimeCounter_Update",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+    "tool": "tools/play_time_controls.py",
+    "tool_sha256": "eeec1d00650aa767a88e199c47b3700d54d8aad67874b16ce9e32e9754d924dd"
   },
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "2cfff7e16ebb07c522655d03bcee238c782952512677eab212fb0f6d8b223ef8"
+      "sha256": "2640ff16cb8a4abd46533bb5f208f445651c4deceb293ec6a80560027dfd7c29"
     },
     {
-      "path": "analysis/ruby-jp-play-time-counter-update-cfg.json",
-      "sha256": "128b05b51d382448a2d60e7a0dc113b55fd5845b6ec5c4128ba9b601839e92df"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
     },
     {
-      "path": "analysis/ruby-jp-play-time-counter-update-map.json",
-      "sha256": "fe2592b11e7875a378c5356f920d3754b50990f0b8037aa7aafa9f41b26d0af1"
+      "path": "analysis/play-time-counter-summary.json",
+      "sha256": "1d597794376fab6bc5ec5d200cc05f6da0c0d3e1acc144b6760d25193a103f48"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "76138ea651c0b2fa0f5e22da269d7b2fba971462fde9288e9b66a1e54256ac81"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "c76a5a6fb885bc60a235ed140be79a765ad62af39e17596bb68f36097204df22"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "7ea059313a10d64b657c7811b76cb730521b92524254cb90a2f131a6f239cdb1"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-play-time-counter-update-map.json",
+      "sha256": "b8dc192d1397b883ba8f9d8614b223c9b9b5759b805f5cd182a2fd385fac978d"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-play-time-counter-update-map.json",
+      "sha256": "d70a8f5696880e7b360e3b8915611856e4cfa556ecff9a662e4d27d982b7e6e2"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "a28c1d2fff3c36b6cf3a2160d4d644d406307ef0f3969c844983a401a9892bbb"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "27c2b3142985a2659c1823dcd1310a888ae4fb1e49aa63b917ba53f46d21eed9"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "f53298be4f77fa126c70fccab49201481127760dc7805647c405c4960ae32191"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "1d25bf6ba81bd1b646030f20f3ae1e80330aa2fb32861a53acc3e89e287c604e"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "ce139325e874bdbbba8262a7b6dc9a4604d3ca73b31c9f47b244840ab4b59f8c"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "a700487bbe5e2c369eab25e4d565cc77dca8e81633498d9b1e176017605f2081"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "375ef5911c0a4f9ee9aabff71e9590e701d90334bcafc5961b51e5f9008eea20"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-play-time-counter-update-map.json",
+      "sha256": "70e7c59f1d774f1c16f782944cab7812534aabd71a8c65116721944d31cde5bc"
     },
     {
       "path": "research/play-time-counter-update-reconstruction.md",
-      "sha256": "b42b6f11d3782bf298a47a4afb24d05f6ce953b8114e21e19733c7e6e9e299c2"
+      "sha256": "19fbafbeb6b27060eda229bbfc7ea5590ec9e89d9d0881038600bedb81e759a1"
+    },
+    {
+      "path": "tests/test_play_time_counter_update_reconstruction.py",
+      "sha256": "1ec060c1867c283629919095058eba7afb13b606868ec57295424ca880124625"
     }
   ],
   "raw_rom_bytes_included": false

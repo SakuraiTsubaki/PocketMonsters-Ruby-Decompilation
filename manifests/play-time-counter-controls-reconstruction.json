@@ -1,48 +1,92 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXVJ-rev0",
-    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
-  },
+  "game": "Ruby",
+  "profile": "direct",
   "functions": [
     "PlayTimeCounter_Reset",
     "PlayTimeCounter_Start",
     "PlayTimeCounter_Stop",
     "PlayTimeCounter_SetToMax"
   ],
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
     "tool": "tools/play_time_controls.py",
-    "tool_sha256": "5227a1f41c4d086c105df68cc4256e327c984fc0bad4ace3f31e53e178f49913"
+    "tool_sha256": "eeec1d00650aa767a88e199c47b3700d54d8aad67874b16ce9e32e9754d924dd"
   },
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "2cfff7e16ebb07c522655d03bcee238c782952512677eab212fb0f6d8b223ef8"
+      "sha256": "2640ff16cb8a4abd46533bb5f208f445651c4deceb293ec6a80560027dfd7c29"
     },
     {
-      "path": "analysis/ruby-jp-play-time-counter-reset-cfg.json",
-      "sha256": "d6a59ab02b415a5967857037da48241a0adb4406cce4abded2db05105c03de1f"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
     },
     {
-      "path": "analysis/ruby-jp-play-time-counter-start-cfg.json",
-      "sha256": "0a0d6c61106209838055976847568da871412fd552e53f9fc4c92d048f490e57"
+      "path": "analysis/play-time-counter-summary.json",
+      "sha256": "1d597794376fab6bc5ec5d200cc05f6da0c0d3e1acc144b6760d25193a103f48"
     },
     {
-      "path": "analysis/ruby-jp-play-time-counter-stop-cfg.json",
-      "sha256": "1f601025e48847283cb460690cf2cbb04f3f70a97e40937bc78456fa49a0e62c"
+      "path": "analysis/axv-j-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "1d27c62913675f50e17545c37b3476d1b0d7362a149893d99dcaf653fe1cb250"
     },
     {
-      "path": "analysis/ruby-jp-play-time-counter-set-to-max-cfg.json",
-      "sha256": "a707b38e1ad30a1973f73e41179e1a9f119e27407a9026e38c24a8991e2d9504"
+      "path": "analysis/axv-e-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "fcaca3698c4f3711d09463d58e5c1fad238a6d9c4430f10cb45febe340b6ed25"
     },
     {
-      "path": "analysis/ruby-jp-play-time-counter-controls-map.json",
-      "sha256": "10302fc3f9da4a170d5365aff204f9b5df37cde8ac26c8f84c3be4d9c050dada"
+      "path": "analysis/axv-e-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "d898fa9a6aa78fd3fd3d8ad2029b260dd3ac8ccbdec29c594d8b62e50f25cd02"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-play-time-counter-controls-map.json",
+      "sha256": "42ffdee6b49312c8400a21165ce315132e536987855de3ca0e90ac8b79220b0f"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-play-time-counter-controls-map.json",
+      "sha256": "9f97b19d8913b48c6b1d5a4ec7e0f9199d54aef8f42973dde794794549d6e9b1"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "0040df4ea2075f6d320b5552b59c64b10c81915d9fbd6121148f1a65c906faf5"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "956e8e2afde2197865581964de42c0d478bb0c3f4ca304d674a2cbb638d523ce"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "e3033ae5c89608178c9d11273f62a8c2f0c41eabfef530ad01342a63f5544d50"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "59c43c181173e7b8b27e24892217373b4634b8e1c7db182dd59bcafafd344a99"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "fd71c9028a8b986592982b48c8fe25ec521265f69654f76ef20e70159ccc1457"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "40f4028e4f4421a3aaac298d5e687ed3e1427efbd7acbd00175b2dbb306084b0"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-play-time-counter-controls-map.json",
+      "sha256": "3e7dd60d8b474a4a791112e993efdcb45978bc9d082429216cad8469400cfa87"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-play-time-counter-controls-map.json",
+      "sha256": "6bf72671646f097906761c4c9104550480ed289ffd3f436805ea3283b3c3da15"
     },
     {
       "path": "research/play-time-counter-controls-reconstruction.md",
-      "sha256": "9c059e6986cb95134b4f27a7448b74a6d0431fc81bf241f9371901780da3c0fb"
+      "sha256": "7cb1ed98b25a2857f19c27179caa9df5ea7bd1b4e76ac752a3e320bae3e4e7d5"
+    },
+    {
+      "path": "tests/test_play_time_counter_controls_reconstruction.py",
+      "sha256": "bb2ffa3ae707c5350e78ddcb34697a5f387cee4013fb2c676e06017ce1d327f9"
     }
   ],
   "raw_rom_bytes_included": false
