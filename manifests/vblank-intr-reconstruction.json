@@ -1,22 +1,87 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "AXVJ-rev0",
-    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
-  },
+  "game": "Ruby",
   "function": "VBlankIntr",
+  "profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/vblank_intr_catalog.py",
+    "tool_sha256": "b432995737f5b4d44d4f2d57385166aed952411e2f1165aeb49f691ee5795b11"
+  },
   "outputs": [
     {
       "path": "src/vblank_intr.c",
-      "sha256": "485695bbe2d64598852a718c255e5fd21fd350ec40939a0311b47e80cb1506fe"
+      "sha256": "141394c41c8bbd2e107ef6f47deac00ce4580c45a5ef787ef3f8d42b35ab5810"
     },
     {
-      "path": "analysis/ruby-jp-vblank-intr-map.json",
-      "sha256": "d89fd1a315939d64579ed083e4e537f88f037a9345b3f2efce7eafae0fb500cb"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-vblank-intr-map.json",
+      "sha256": "5084d8d13adbae4c76c396b13052bd651a90fcc506cc1ff3d65c5ecf9f17b108"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-vblank-intr-map.json",
+      "sha256": "8cb6fc84188b3997de9f0a88244db730cbdf444160e1c00897ba74081b392816"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-vblank-intr-map.json",
+      "sha256": "8456429019817febcfa7695ebf791ed111901102a0fcef40e04d322575b07cc0"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-vblank-intr-map.json",
+      "sha256": "a97d85b3ac32ea32e218f2f9ef7ed5ca81a8e2c5c323e16dbf6c371a6ecff494"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-vblank-intr-map.json",
+      "sha256": "cf1ca500b1256594f3ec4ab70494be206e5a6da5bbda973be4f10b77be238bc5"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-vblank-intr-map.json",
+      "sha256": "b8ee71f507940e0ec5a6e096f1df19e33182783592f1463a3763434f5dc47f02"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-vblank-intr-map.json",
+      "sha256": "58cc3ee96de3411bb411bb78b68cf22607fa20de6f5b9f9cc51329468ae66ab3"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-vblank-intr-map.json",
+      "sha256": "e4c28d831b94d5f8c56ba74a91fe85d30cd4eeb69c6bb3a2902e7239752dc679"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-vblank-intr-map.json",
+      "sha256": "4ae01da812c99bb6851cef64a45c4d36e5355827611dd9bb6c743b1e28579c3b"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-vblank-intr-map.json",
+      "sha256": "4929fadee1905d4e62661dab89d4487c78f9b5ac6e908eb7b2d902c76b2cb859"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-vblank-intr-map.json",
+      "sha256": "778b360a81d0fca1580543729319722a5f5a38d8a9a1ee6d6f91bc69f702e2a3"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-vblank-intr-map.json",
+      "sha256": "46452f6ae5bbfc40f040afb21d141e260c82d2a0c8c34a15d3a89c61a23a769c"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-vblank-intr-map.json",
+      "sha256": "245e05a5ad2a9353f570e13e21b0dbddd6de507b829989edf549f12c624b4ca3"
+    },
+    {
+      "path": "analysis/vblank-intr-summary.json",
+      "sha256": "8dd5a273c8b0cd8caec2f2d88fb238e6aba1876eba3266037c82164e4d52a6b8"
     },
     {
       "path": "research/vblank-intr-reconstruction.md",
-      "sha256": "feee2647bff11b8a44fde1e939b9e5a5645f3f876da6dab0e41ce1efaeac6451"
+      "sha256": "c260f9b2121c7271db581161e65b3117b2529f43edd6bac3a4aa5cba341ed9c1"
+    },
+    {
+      "path": "tests/test_vblank_intr_reconstruction.py",
+      "sha256": "3708adc61b6d63cf6f1a5bde94d6561733cb2f04b319867726ed248feb6b5054"
     }
   ],
   "raw_rom_bytes_included": false
