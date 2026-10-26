@@ -1,2 +1,92 @@
-{"schema_version":1,"target":{"release":"AXVJ-rev0","sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"},"functions":["HBlankIntr","VCountIntr","SerialIntr"],"outputs":[{"path":"src/display_serial_interrupts.c","sha256":"03c476e2d9dceee97a83ace4e74cdf4937ce36da90e3d9277b29eeb10e2b44da"},{"path":"analysis/ruby-jp-display-serial-interrupt-map.json","sha256":"42c45316bf9e27a379ee7c22847acd550f5926825bced839d2629803d66f2730"},{"path":"research/display-serial-interrupt-reconstruction.md","sha256":"29268b45468b0ec30d5d137db157156e4a14bcaedac2470385e6881e21d28146"}],"raw_rom_bytes_included":false}
-
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/display_interrupt_catalog.py",
+    "tool_sha256": "771f6b764d7e830e7b6556476f58c2744f5dd8d637ea0ce81498df9ebe4d5fe8"
+  },
+  "outputs": [
+    {
+      "path": "src/display_serial_interrupts.c",
+      "sha256": "29c49edace906cf084840ded46dc4c00e0570f3b0a10722d151992a1096dad27"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "a9a7563f0c5f6e0fe344b4639fa3efd659b8e43c573a42c44cd24f3f6b6d45dc"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "eb5ee93d937fe3b6bf1f16d5cac96984d87e0e997dc875a8c24d190e58997fca"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-display-serial-interrupt-map.json",
+      "sha256": "25a2ed4fd7c4393156ba15de863881914373a5722da70baed2895af7ff46d6a0"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-display-serial-interrupt-map.json",
+      "sha256": "e85f639ad3db337f1366768541c5704a1ff7cbd886aa05c75552debfa3c49d9f"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-display-serial-interrupt-map.json",
+      "sha256": "ddf50f92c41c2d06c0689994031273c299c3a861008fee267219638c43e14d4f"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "6c4b1de415556bb86c9586ce835a6507cb7f4cff640d110446cdb8931265e002"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-display-serial-interrupt-map.json",
+      "sha256": "ca10ccd0c934916a9694b8d0ad80f7d9d6bc2597c6e5f87979f4dd456471d05a"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "638d8c536dcaf51e022773c623c3aeb6758d635416ced14a05048ded11643c4b"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-display-serial-interrupt-map.json",
+      "sha256": "4d18b2b9fb24aad7151f78debdbf4a689dc53369ff2aae642829e20c83f1fc6c"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "4c80e4649d6035be4caf5ec1f6e7f16c478406dcdf4e972afe12ff9ed0c50837"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-display-serial-interrupt-map.json",
+      "sha256": "a31d34a30eef50a06b4ebe198129054a7a7fff5b70d21ae20209fb86ed7a697f"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "43c728ac0799179ce0aa390d225bd95d12122e48d09081c1081714342622d3f3"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-display-serial-interrupt-map.json",
+      "sha256": "1783d8cb978a5f865bf5ea0f866336246cc5aeb931b5f2b63a6bcc39356fc79d"
+    },
+    {
+      "path": "analysis/display-serial-interrupt-summary.json",
+      "sha256": "0eae7b76efcd76df2b7d6e0b13b7dddb828fbe673ec715da6af23c12f20ba74c"
+    },
+    {
+      "path": "research/display-serial-interrupt-reconstruction.md",
+      "sha256": "3bb6887d2158754e1753082d0a62150012fdc9d0456369af1acb10e7e0e90d1c"
+    },
+    {
+      "path": "tests/test_display_serial_interrupts.py",
+      "sha256": "3a449f52133d278384658e3995cef30f27e4a4302b937ba3020de458ed3480ed"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
