@@ -1,12 +1,5 @@
-# AXVJ revision 0 key-input reconstruction
+# Ruby key input reconstruction
 
-`AgbMain` calls `InitKeys` at `0x08000404` and `ReadKeys` at `0x0800042C`.
-The ROM functions prove the five initialized key fields, repeat delays 5 and
-40, active-low `REG_KEYINPUT` mask `0x03FF`, repeat-counter branches, L-to-A
-option remapping, and watched-key latch.
+The Japanese release `axv-j-rev0-retail` is the origin reference. All 13 cataloged releases (Japanese, English, German, French, Italian, Spanish) contain exactly one InitKeys and ReadKeys pair matching the `direct` profile. Options are read through a direct SaveBlock2 object.
 
-The accesses establish `gMain` input offsets `0x28` through `0x36` and the
-button-mode byte at `gSaveBlock2 + 0x13`. `src/key_input.c` reconstructs this
-behavior while the JSON map preserves exact Japanese addresses and literals.
-Names are grounded in the control-flow-equivalent `pret/pokeruby` `main.c`;
-no ROM instruction bytes are published.
+The pair establishes repeat delays 5 and 40, derives active-high keys from REG_KEYINPUT with mask 0x03FF, implements repeat behavior, applies L-equals-A mode, and records watched-key presses. Per-release maps retain ranges, hashes, validated literals and control-flow counts without ROM instruction bytes. Naming and behavior are corroborated by `pret/pokeruby` at `5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f`, `src/main.c`.

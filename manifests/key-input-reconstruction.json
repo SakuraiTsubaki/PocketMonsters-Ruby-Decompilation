@@ -1,11 +1,91 @@
 {
   "schema_version": 1,
-  "target": {"release":"AXVJ-rev0","sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"},
-  "functions": ["InitKeys","ReadKeys"],
+  "game": "Ruby",
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "profile": "direct",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/key_input_catalog.py",
+    "tool_sha256": "e0db0f2f110864675f48debaaad10a4556f044e13605b081c1ce958f87bc44e5"
+  },
   "outputs": [
-    {"path":"src/key_input.c","sha256":"ab0ecd60cd41e341e42da3dbe16732007f9af2d1fc240d7ac3beb3b41f8e3a19"},
-    {"path":"analysis/ruby-jp-key-input-map.json","sha256":"1d6412d36f1d4232d2d43b30a466a9b30b3f41c77a624544cef5143446e4c9a8"},
-    {"path":"research/key-input-reconstruction.md","sha256":"5bedcefba1cdaed953f52788b93509933fbea72358e93660e0994bdb17753a55"}
+    {
+      "path": "src/key_input.c",
+      "sha256": "b894512a0778d83a6b6433aca7f68a754651732d912bba1624ffa8bd435cf153"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-key-input-map.json",
+      "sha256": "85b148dc9f02776c9b4f8ae4a30bfb36cce5023a9d2f14fd4ec9b14ef9b79c79"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-key-input-map.json",
+      "sha256": "9395a3b07670c3ecb2ce72a710e4ec3c2fc1a8057d220023c7c480e808fcffd3"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-key-input-map.json",
+      "sha256": "bd02a98bb3389eb18c930648dc1bcc1cb49eaf936fca60281f4681edf5156d26"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-key-input-map.json",
+      "sha256": "1543511df6c2099da9d96cf1ea9b74c4c473f74b5ebcc993f720539cf9267e50"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-key-input-map.json",
+      "sha256": "036b28c19a3da3991bc8960cc7fa852708c84001951c3c04083bcf11783202c5"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-key-input-map.json",
+      "sha256": "a827f863ba54c05dd0e9e4d9c8b8ff97b0d676f0a575c2a5e79576a83adba530"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-key-input-map.json",
+      "sha256": "e91ebbd777dacd5cbd6f585d5014e6bbda55e57b2160db5cdbee4e64c8a0a92a"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-key-input-map.json",
+      "sha256": "e7496cf2debc1f15904cf3992ab5038cc5db2882f36e90eb518797f438560de2"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-key-input-map.json",
+      "sha256": "aa0c3054f9f59c4b0b715fb3621336b9a6181de4b099a312fcab22181768c9d7"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-key-input-map.json",
+      "sha256": "bde8d62775657e4f7eef6b32f5b2f3a88e873d322d8e102b7cc60eab44dd757a"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-key-input-map.json",
+      "sha256": "d4847e48ae5035ab7c13dbbe53f275db349a46486d9e40c57ea70b76cad24739"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-key-input-map.json",
+      "sha256": "0557798da862f3a9e636f0125922fcb779dacbe5924f7740f2d859dbb1e3e624"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-key-input-map.json",
+      "sha256": "af8be96233c12e3832cee0d0cce0b695df250d28e9b8e3615ba767b251c15ad9"
+    },
+    {
+      "path": "analysis/key-input-summary.json",
+      "sha256": "0eb103f6fe472e15c372e09b809464b45c9829eebfd34e6ac1345f0cf27b35aa"
+    },
+    {
+      "path": "research/key-input-reconstruction.md",
+      "sha256": "7df451a1fcd6a0747c0fca7f032dd60c7e48208e9bf1a62ad42d2ebd06db44e3"
+    },
+    {
+      "path": "tests/test_key_input_reconstruction.py",
+      "sha256": "1a90fc9a209bbad400e44ea010410c7a82f2913e099a4bdf495522c031e85287"
+    }
   ],
   "raw_rom_bytes_included": false
 }
