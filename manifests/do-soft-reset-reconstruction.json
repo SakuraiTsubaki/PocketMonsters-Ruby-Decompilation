@@ -21,7 +21,7 @@
     },
     {
       "path": "analysis/ruby-jp-do-soft-reset-map.json",
-      "sha256": "38ee57d6f55ce67e67a3b3f70a2ce5403b2f48a8d486092c203432bc0715cc89"
+      "sha256": "0c36eeecc05a8a77a50f1409f46bec241d536786dad3ffb9298dff5f45aee0e9"
     },
     {
       "path": "research/do-soft-reset-reconstruction.md",
@@ -30,4 +30,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

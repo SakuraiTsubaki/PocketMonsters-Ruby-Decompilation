@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Ruby",
+  "function": "DoSoftReset",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "source": "src/do_soft_reset.c",
+  "releases": [
+    {
+      "id": "axv-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "origin_reference": true,
+      "address": "0x080006B8",
+      "code_sha256": "c9480530fd1cb42dd81f25a59fa3cb67c595a6f75c945306cab5c7fbb737aeb1",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081AEFC4",
+        "ScanlineEffect_Stop": "0x08086428",
+        "SiiRtcProtect": "0x081B09D8",
+        "SoftReset": "0x081B12B0"
+      },
+      "evidence": {
+        "map": "analysis/axv-j-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-j-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e",
+      "origin_reference": false,
+      "address": "0x080006B4",
+      "code_sha256": "dc9873466cb047d384dba46511c0b97424032fbbc0d120177234722f394f5297",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DE52C",
+        "ScanlineEffect_Stop": "0x08089578",
+        "SiiRtcProtect": "0x081DFF30",
+        "SoftReset": "0x081E0808"
+      },
+      "evidence": {
+        "map": "analysis/axv-e-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-e-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0",
+      "origin_reference": false,
+      "address": "0x080006B4",
+      "code_sha256": "ef9f846b7333219fba7b615ff1e9b16c4003b19ec909de2fb35f68b2f8242c51",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DE544",
+        "ScanlineEffect_Stop": "0x08089598",
+        "SiiRtcProtect": "0x081DFF48",
+        "SoftReset": "0x081E0820"
+      },
+      "evidence": {
+        "map": "analysis/axv-e-rev1-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-e-rev1-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c",
+      "origin_reference": false,
+      "address": "0x080006B4",
+      "code_sha256": "ef9f846b7333219fba7b615ff1e9b16c4003b19ec909de2fb35f68b2f8242c51",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081DE544",
+        "ScanlineEffect_Stop": "0x08089598",
+        "SiiRtcProtect": "0x081DFF48",
+        "SoftReset": "0x081E0820"
+      },
+      "evidence": {
+        "map": "analysis/axv-e-rev2-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-e-rev2-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-d-rev0-debug",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "debug",
+      "sha256": "548e9db988d387f8876a0aa40ea1ecb6f1110a8a550413e1861c9656fff7427a",
+      "origin_reference": false,
+      "address": "0x080007E8",
+      "code_sha256": "ddc3ef239df9a980b6680d06b86741f5aacc1d088a10fe06425c0926ab312d46",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x082041EC",
+        "ScanlineEffect_Stop": "0x08096D98",
+        "SiiRtcProtect": "0x08205BF0",
+        "SoftReset": "0x082064C8"
+      },
+      "evidence": {
+        "map": "analysis/axv-d-rev0-debug-do-soft-reset-map.json",
+        "cfg": "analysis/axv-d-rev0-debug-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "22b28a91be484178236d7f39d64210205698b417394913e089b47796c998fa75",
+      "origin_reference": false,
+      "address": "0x080007E8",
+      "code_sha256": "22c6e30e20a65d54829206ab05de0dab980c0853a37063a2628b3efe6cc1a845",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081EB498",
+        "ScanlineEffect_Stop": "0x080899CC",
+        "SiiRtcProtect": "0x081ECE9C",
+        "SoftReset": "0x081ED774"
+      },
+      "evidence": {
+        "map": "analysis/axv-d-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-d-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e0b620d576bc503e083bb9d2af1f5ffc40127b84e6ca734e3c45534d0d008043",
+      "origin_reference": false,
+      "address": "0x080007E8",
+      "code_sha256": "22c6e30e20a65d54829206ab05de0dab980c0853a37063a2628b3efe6cc1a845",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081EB498",
+        "ScanlineEffect_Stop": "0x080899CC",
+        "SiiRtcProtect": "0x081ECE9C",
+        "SoftReset": "0x081ED774"
+      },
+      "evidence": {
+        "map": "analysis/axv-d-rev1-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-d-rev1-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "160185eb928c649b0bb5cfbda6d3cb5239b474b69c0a6b61d939bbfd546177f7",
+      "origin_reference": false,
+      "address": "0x080007E8",
+      "code_sha256": "40a41fb48fa33c1c1306bafc2ef560ff5256a8492b2d4cb9b16f1cfc6620b643",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081E6924",
+        "ScanlineEffect_Stop": "0x08089AB4",
+        "SiiRtcProtect": "0x081E8328",
+        "SoftReset": "0x081E8C00"
+      },
+      "evidence": {
+        "map": "analysis/axv-f-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-f-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "9678645ca67932a42c92b1d6bac118925a6be9f67135ae8fe7747df85cdabdd0",
+      "origin_reference": false,
+      "address": "0x080007E8",
+      "code_sha256": "40a41fb48fa33c1c1306bafc2ef560ff5256a8492b2d4cb9b16f1cfc6620b643",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081E6924",
+        "ScanlineEffect_Stop": "0x08089AB4",
+        "SiiRtcProtect": "0x081E8328",
+        "SoftReset": "0x081E8C00"
+      },
+      "evidence": {
+        "map": "analysis/axv-f-rev1-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-f-rev1-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "61844250fc2766dbab163c84e277c50e3a0b35d6f2defb491a2d38def0ef2ab7",
+      "origin_reference": false,
+      "address": "0x080007E8",
+      "code_sha256": "47db0a86ddbd5f12b90ea5b249f32becfe4642074c9778211560d6c34c50396a",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081E01B8",
+        "ScanlineEffect_Stop": "0x0808996C",
+        "SiiRtcProtect": "0x081E1BBC",
+        "SoftReset": "0x081E2494"
+      },
+      "evidence": {
+        "map": "analysis/axv-i-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-i-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "be116b6fa8d8c12d7ccff3faefd5defd886faa427ff2c85c06d245cbe4e531b2",
+      "origin_reference": false,
+      "address": "0x080007E8",
+      "code_sha256": "47db0a86ddbd5f12b90ea5b249f32becfe4642074c9778211560d6c34c50396a",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081E01B8",
+        "ScanlineEffect_Stop": "0x0808996C",
+        "SiiRtcProtect": "0x081E1BBC",
+        "SoftReset": "0x081E2494"
+      },
+      "evidence": {
+        "map": "analysis/axv-i-rev1-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-i-rev1-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b03c3d0230889a40615371bd616f02160dd1e33bb116659d72d98c27462c40d0",
+      "origin_reference": false,
+      "address": "0x080007E8",
+      "code_sha256": "a9189f12de6fc0edcf0d451260c81e0327ac997929f81c6fdff66928f9bec43c",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081E323C",
+        "ScanlineEffect_Stop": "0x08089A54",
+        "SiiRtcProtect": "0x081E4C40",
+        "SoftReset": "0x081E5518"
+      },
+      "evidence": {
+        "map": "analysis/axv-s-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-s-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "axv-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0db39958c19abcedc7670fb16fd3274a5b205df794eb7491bea0580aa752e095",
+      "origin_reference": false,
+      "address": "0x080007E8",
+      "code_sha256": "a9189f12de6fc0edcf0d451260c81e0327ac997929f81c6fdff66928f9bec43c",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x081E323C",
+        "ScanlineEffect_Stop": "0x08089A54",
+        "SiiRtcProtect": "0x081E4C40",
+        "SoftReset": "0x081E5518"
+      },
+      "evidence": {
+        "map": "analysis/axv-s-rev1-retail-do-soft-reset-map.json",
+        "cfg": "analysis/axv-s-rev1-retail-do-soft-reset-cfg.json"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
