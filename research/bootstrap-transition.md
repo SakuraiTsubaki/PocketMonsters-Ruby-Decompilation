@@ -1,3 +1,3 @@
-# Bootstrap ARM-to-Thumb transition
+# Ruby ARM-to-Thumb bootstrap transition
 
-Starting at the decoded entry target `0x080000d0`, twelve ARM words lead to `bx r1` at `0x080000fc`. The closest PC-relative load into `r1` reads literal `0x0800024d` from `0x08000244`, proving a Thumb-state transition to aligned address `0x0800024c`. This direct control-flow edge is stronger evidence than regional entropy or opcode-pattern counting.
+All 13 cataloged releases were traced from the decoded entry target to a literal-backed register branch into Thumb state. Each transition target is required to equal the corresponding verified `AgbMain` address. Maps retain addresses, counts and code hashes but omit ARM instruction words and literal values.

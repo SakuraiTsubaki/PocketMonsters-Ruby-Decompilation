@@ -1,3 +1,3 @@
-# Japanese ROM entrypoint reconstruction
+# Ruby GBA entrypoint reconstruction
 
-The selected Japanese target begins with ARM word `0xea000032`. ARM PC+8 branch semantics resolve it from `0x08000000` to `0x080000d0`. `src/rom_entry.s` preserves the exact word while documenting the decoded control-flow target. The JSON evidence is reproducible with the shared Decompilation entrypoint tool and exact target SHA-256; no ROM bytes beyond this instruction representation are stored.
+The Japanese release `axv-j-rev0-retail` is the origin reference. All 13 cataloged releases (Japanese, English, German, French, Italian, Spanish) contain a verified ARM branch at the GBA entry address. Per-release evidence stores the target and a four-byte range hash without publishing the encoded instruction word. `src/rom_entry.s` preserves the semantic branch using symbols.

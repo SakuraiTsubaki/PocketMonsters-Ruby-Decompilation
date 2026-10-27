@@ -1,1 +1,87 @@
-{"schema_version":1,"id":"ruby-jp-entrypoint","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/gba_entrypoint.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"}],"outputs":[{"path":"analysis/ruby-jp-entrypoint.json","sha256":"4e02dbbc2f919476ea7ce4313dfdd1eb8371879b228e4c09c620c8a90bd62e18"},{"path":"src/rom_entry.s","sha256":"5bc87e7af70f3eea9e8a4d9e802b1f78c203d976c2b020f9b2e2e1b4a3acf116"}]}
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "evidence_kind": "entrypoint",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "src/rom_entry.s",
+      "sha256": "52943417ce7ccfee748789bd6b252cf3d8cfb916e1a8928e41dba857ef5bc2f5"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "14bf86d6e78a172b2ff4cd132ca64baf88df9097002ef9ec7564eb13609b2a05"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-entrypoint.json",
+      "sha256": "c5d8bfc0c5cd22985f73d766d2a90614411f033a4bf40d33e6952b1f2d4bdedc"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-entrypoint.json",
+      "sha256": "e80513bb818e34d1eb6263cb5a26d9c78695db646e325ba1ccd3b825e0f3f295"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-entrypoint.json",
+      "sha256": "440245ca051f995e33389872d05e084a8570db6ff5bb73adbb49ccbf9a1d9fca"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-entrypoint.json",
+      "sha256": "c61b9f7d1a11d9070ee8c93ef0a5ca20fea417e83a2eba8121e37627b1b14656"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-entrypoint.json",
+      "sha256": "40dd2634ee788ae6f6a2d16ede566a02d8c691461c67883d62415080626bcfb3"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-entrypoint.json",
+      "sha256": "98523a116e16f6f8e260b89e98120b35832d9451c23d1e6d713bac7298e59b89"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-entrypoint.json",
+      "sha256": "0ed6da3db8a33d9d527360e2d506dc87a615ff5a6e0080eeba952d6e0aee80e2"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-entrypoint.json",
+      "sha256": "357b5eb68fca290c7be4a95ad28bd69ae3e3e6cc94ab8b42a61e01503d0f8765"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-entrypoint.json",
+      "sha256": "ee30b5905439ffe4417c2e61415171ad825e84da7b87f25f50b253f4b25ab6d1"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-entrypoint.json",
+      "sha256": "033deb62bf82a4125fbfaed17ba7b32010aa9c92c7d06940814993c8f1417e83"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-entrypoint.json",
+      "sha256": "76c8b149dbe9c85eac2243de8b25bfa55fd735e46f45e8819a97e44b4e53845b"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-entrypoint.json",
+      "sha256": "d1b19ce590a1c2e82c55c55a6ccda88ab1116f1abe3a4c1cd85d2727b9f8dae7"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-entrypoint.json",
+      "sha256": "31aed15fa2668ad6dc9a4ff0aacf19fa0363294c412930b4477a2d21ef97efca"
+    },
+    {
+      "path": "research/entrypoint-reconstruction.md",
+      "sha256": "561ad2c2144e6a34dd522b1d27693cdd8fc48eeb235987c53aaf36c79d7f8555"
+    },
+    {
+      "path": "tests/test_entrypoint.py",
+      "sha256": "00bb4ea791c452d497700e80c3996a502d2d286e6eac9e1142e3d84e13cd8866"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
