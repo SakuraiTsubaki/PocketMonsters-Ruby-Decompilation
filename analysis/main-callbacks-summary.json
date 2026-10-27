@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "cluster": [
+    "UpdateLinkAndCallCallbacks",
+    "InitMainCallbacks",
+    "CallCallbacks",
+    "SetMainCallback2"
+  ],
+  "family_profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "sources": [
+    "src/main_callbacks.c"
+  ],
+  "releases": [
+    {
+      "id": "axv-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "origin_reference": true,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000348",
+          "code_sha256": "be75cee8aa9485b65536cd7f369cbfde8da630f971a1acb4a74e9d051e08129a"
+        },
+        "InitMainCallbacks": {
+          "address": "0x08000390",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080003B0",
+          "code_sha256": "3a3741b7867997d0524f4b9c36c289c0a36f13b89ca073f6a2d630c6a6f53d0b"
+        },
+        "SetMainCallback2": {
+          "address": "0x080003D4",
+          "code_sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e"
+        }
+      },
+      "evidence": "analysis/axv-j-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "53d591215de2cab847d14fbcf8c516f0128cfa8556f1236065e0535aa5936d4e",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000340",
+          "code_sha256": "45f6c27d1b7e8a16bb5ffbc1bb20e8e55dc887744a499cebfebb3eb1ad1c6fd3"
+        },
+        "InitMainCallbacks": {
+          "address": "0x08000388",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080003A8",
+          "code_sha256": "1840d3537827bacaa1960969602a5ad356994c7c82f8414caae383331281e0d9"
+        },
+        "SetMainCallback2": {
+          "address": "0x080003CC",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-e-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000340",
+          "code_sha256": "c57b1a9578217a0791beadd66ad110b4fff03f47695cbda2c98175bf5c1459b4"
+        },
+        "InitMainCallbacks": {
+          "address": "0x08000388",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080003A8",
+          "code_sha256": "429c3a050f4a4199e63c6762c7d3370e79c13490107d70021911b868c79192a5"
+        },
+        "SetMainCallback2": {
+          "address": "0x080003CC",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-e-rev1-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "0fdd36e92b75bed65d09df4635ab0b707b288c2bf1dc4c6e7a4a4f0eebe9d64c",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000340",
+          "code_sha256": "c57b1a9578217a0791beadd66ad110b4fff03f47695cbda2c98175bf5c1459b4"
+        },
+        "InitMainCallbacks": {
+          "address": "0x08000388",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080003A8",
+          "code_sha256": "429c3a050f4a4199e63c6762c7d3370e79c13490107d70021911b868c79192a5"
+        },
+        "SetMainCallback2": {
+          "address": "0x080003CC",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-e-rev2-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-d-rev0-debug",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "debug",
+      "sha256": "548e9db988d387f8876a0aa40ea1ecb6f1110a8a550413e1861c9656fff7427a",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000474",
+          "code_sha256": "2f40b4c6761f0f37a8381e630de372d846755e7beaf1be72221d1a7dce9caf5e"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004BC",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080004DC",
+          "code_sha256": "190b5760a68b37dfc9f1037710ff0125fb7a0251938135763bdc0ed4bfed6f49"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000500",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-d-rev0-debug-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "22b28a91be484178236d7f39d64210205698b417394913e089b47796c998fa75",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000474",
+          "code_sha256": "41248dbd0f6ac214d1003d57e3f28cab083b1e2351dd6e8c3ab668a9940c1739"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004BC",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080004DC",
+          "code_sha256": "fb6e8b959f138fb66b9fc71c1951ba5f18772f28348df849160ac758ecb6d4b5"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000500",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-d-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e0b620d576bc503e083bb9d2af1f5ffc40127b84e6ca734e3c45534d0d008043",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000474",
+          "code_sha256": "41248dbd0f6ac214d1003d57e3f28cab083b1e2351dd6e8c3ab668a9940c1739"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004BC",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080004DC",
+          "code_sha256": "fb6e8b959f138fb66b9fc71c1951ba5f18772f28348df849160ac758ecb6d4b5"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000500",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-d-rev1-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "160185eb928c649b0bb5cfbda6d3cb5239b474b69c0a6b61d939bbfd546177f7",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000474",
+          "code_sha256": "d7faa9df516fb06b417f9b2ab79c8a29f412a70b11ca047f6d13984703d47de1"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004BC",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080004DC",
+          "code_sha256": "ba3f7f7dae26aca1c276379a7a194152202ecf9c9d573c1d0aa8f83f69675adc"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000500",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-f-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "9678645ca67932a42c92b1d6bac118925a6be9f67135ae8fe7747df85cdabdd0",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000474",
+          "code_sha256": "d7faa9df516fb06b417f9b2ab79c8a29f412a70b11ca047f6d13984703d47de1"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004BC",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080004DC",
+          "code_sha256": "ba3f7f7dae26aca1c276379a7a194152202ecf9c9d573c1d0aa8f83f69675adc"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000500",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-f-rev1-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "61844250fc2766dbab163c84e277c50e3a0b35d6f2defb491a2d38def0ef2ab7",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000474",
+          "code_sha256": "b436af294026a70b0ff4ec8593a8ecfd43bb0e5cb57db5605a1615ae07c9e745"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004BC",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080004DC",
+          "code_sha256": "a14b7a5c1ca1a3d01f5e7793f7b242282aecf9869e37e4f8c930955d3892eb9a"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000500",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-i-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "be116b6fa8d8c12d7ccff3faefd5defd886faa427ff2c85c06d245cbe4e531b2",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000474",
+          "code_sha256": "b436af294026a70b0ff4ec8593a8ecfd43bb0e5cb57db5605a1615ae07c9e745"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004BC",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080004DC",
+          "code_sha256": "a14b7a5c1ca1a3d01f5e7793f7b242282aecf9869e37e4f8c930955d3892eb9a"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000500",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-i-rev1-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b03c3d0230889a40615371bd616f02160dd1e33bb116659d72d98c27462c40d0",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000474",
+          "code_sha256": "0219b5d9bdcc092e9806f2db9384f437092eddd9c699a13248793c8c3f5eaedf"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004BC",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080004DC",
+          "code_sha256": "332d4f89f9513108f3353b2bbe91fa5eb9f097a18f2c8b421e2c1ca2185b132e"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000500",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-s-rev0-retail-main-callbacks-map.json"
+    },
+    {
+      "id": "axv-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "0db39958c19abcedc7670fb16fd3274a5b205df794eb7491bea0580aa752e095",
+      "origin_reference": false,
+      "functions": {
+        "UpdateLinkAndCallCallbacks": {
+          "address": "0x08000474",
+          "code_sha256": "0219b5d9bdcc092e9806f2db9384f437092eddd9c699a13248793c8c3f5eaedf"
+        },
+        "InitMainCallbacks": {
+          "address": "0x080004BC",
+          "code_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5"
+        },
+        "CallCallbacks": {
+          "address": "0x080004DC",
+          "code_sha256": "332d4f89f9513108f3353b2bbe91fa5eb9f097a18f2c8b421e2c1ca2185b132e"
+        },
+        "SetMainCallback2": {
+          "address": "0x08000500",
+          "code_sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8"
+        }
+      },
+      "evidence": "analysis/axv-s-rev1-retail-main-callbacks-map.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

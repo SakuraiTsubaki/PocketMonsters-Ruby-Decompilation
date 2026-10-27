@@ -1,27 +1,92 @@
 {
   "schema_version": 1,
-  "id": "ruby-jp-main-callbacks-reconstruction",
-  "target": {
-    "release": "AXVJ-rev0",
-    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852"
+  "game": "Ruby",
+  "cluster": [
+    "UpdateLinkAndCallCallbacks",
+    "InitMainCallbacks",
+    "CallCallbacks",
+    "SetMainCallback2"
+  ],
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/main_callback_catalog.py",
+    "tool_sha256": "cebed0fd5a611a984866fa74779d21542ebb651e415d974435158352a1c22962"
   },
   "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
     {
       "path": "src/main_callbacks.c",
       "sha256": "92c5d83553ed368e32063782a4cc2bcd83a97630be88d5ec13de2d6c9313f40a"
     },
     {
-      "path": "analysis/main-callbacks-map.json",
-      "sha256": "cb0815e49ed8e98b255c4206fb6617d03bfdf8a3fd87f0e650258dfcce50be63"
+      "path": "analysis/main-callbacks-summary.json",
+      "sha256": "c7cca8477098ed53bd5f37180e1b07d71b6d02daafd8560f98ebacb3011834df"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-main-callbacks-map.json",
+      "sha256": "04d26d35aca109a9696cc6cb77bbeafab85eff83e77794848e52329527000c88"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-main-callbacks-map.json",
+      "sha256": "92127ae6b47c7b282b1bb5b342a1e7233ca46f329dabe758cf61faf24dff0817"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-main-callbacks-map.json",
+      "sha256": "748fc936afca87d5f9f09f69864e582468de58e48ce3a2c0735da12d3e7135df"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-main-callbacks-map.json",
+      "sha256": "6f1b5c0cd20ee32fb7d2f350d264d66d3c01c6fd352dbd9f2ff3163afbf5a329"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-main-callbacks-map.json",
+      "sha256": "c445d0f3887b7959aef484cf3722bd21707ee1ba2f447bf8a46a3f3eb27cb07f"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-main-callbacks-map.json",
+      "sha256": "51df1c6e97269dbdb17d634e31a13777ecab475ef698e4e0060925586a16f64c"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-main-callbacks-map.json",
+      "sha256": "89b423dfa1ddae0774ecd00d3e79875ee2d011ee5e609de9524f3700551b6f22"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-main-callbacks-map.json",
+      "sha256": "f54809e8e8b42b98fd232ef37c914b185647b32e504244dd9abb09c97c1257bf"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-main-callbacks-map.json",
+      "sha256": "5f1616f40adcbaa5b634ad8d394071dc0a54bff75e131d13e36ca651a08b5ff5"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-main-callbacks-map.json",
+      "sha256": "1ba00c74a72f78f4ed61bb1356d870decf67c45e3f63b1b17de3bc778e085fd5"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-main-callbacks-map.json",
+      "sha256": "92e1facf58fc7dee14a8c61d3c71d916ae10e110224294b65abdfcc7b918d874"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-main-callbacks-map.json",
+      "sha256": "7510c5dfd6bf94a512661014fd96390ca73c5a94c168a6ca82c1788e2a94d696"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-main-callbacks-map.json",
+      "sha256": "cf077a14897e988b2af67c8b6e21441a15a297393871bc7b339999e9f9d1f619"
     },
     {
       "path": "research/main-callbacks-reconstruction.md",
-      "sha256": "0ca2b024038ebe967c639000002c7fc4b2dc4de3b38e408a3762238ba7c4e4b1"
+      "sha256": "d9eaa6c38a7e75c456d5612a352597f60be50681845eceebc9677ab291362e69"
+    },
+    {
+      "path": "tests/test_main_callbacks_reconstruction.py",
+      "sha256": "484fb6245418b4409b7cf55e5386873b49bae06f1d3dd5cc82e054a10021e2a3"
     }
   ],
-  "verification": {
-    "test": "tests/test_main_callbacks_reconstruction.py",
-    "function_range_hashes": "analysis/main-callbacks-map.json",
-    "raw_rom_bytes_published": false
-  }
+  "raw_rom_bytes_included": false
 }

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axv-i-rev0-retail",
+    "sha256": "61844250fc2766dbab163c84e277c50e3a0b35d6f2defb491a2d38def0ef2ab7"
+  },
+  "origin_reference": false,
+  "family_profile": "rs",
+  "functions": [
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "address": "0x08000474",
+      "range_end_exclusive": "0x080004A8",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "92c5d83553ed368e32063782a4cc2bcd83a97630be88d5ec13de2d6c9313f40a",
+      "rom_code_range": {
+        "start_offset": 1140,
+        "end_offset_exclusive": 1192,
+        "length": 52,
+        "sha256": "b436af294026a70b0ff4ec8593a8ecfd43bb0e5cb57db5605a1615ae07c9e745",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "LinkMain1",
+          "source": "0x0800047C",
+          "target": "0x08008A14"
+        },
+        {
+          "name": "LinkMain2",
+          "source": "0x08000486",
+          "target": "0x08007750"
+        },
+        {
+          "name": "LinkReceivedNothingOverride",
+          "source": "0x08000496",
+          "target": "0x08055C94"
+        },
+        {
+          "name": "CallCallbacks",
+          "source": "0x0800049E",
+          "target": "0x080004DC"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 26,
+        "edge_count": 4,
+        "edge_kinds": {
+          "conditional-fallthrough": 2,
+          "conditional-taken": 2
+        },
+        "direct_call_count": 4,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "InitMainCallbacks",
+      "address": "0x080004BC",
+      "range_end_exclusive": "0x080004D2",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "92c5d83553ed368e32063782a4cc2bcd83a97630be88d5ec13de2d6c9313f40a",
+      "rom_code_range": {
+        "start_offset": 1212,
+        "end_offset_exclusive": 1234,
+        "length": 22,
+        "sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "SetMainCallback2",
+          "source": "0x080004CA",
+          "target": "0x08000500"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 11,
+        "edge_count": 0,
+        "edge_kinds": {},
+        "direct_call_count": 1,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "CallCallbacks",
+      "address": "0x080004DC",
+      "range_end_exclusive": "0x080004FA",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "92c5d83553ed368e32063782a4cc2bcd83a97630be88d5ec13de2d6c9313f40a",
+      "rom_code_range": {
+        "start_offset": 1244,
+        "end_offset_exclusive": 1274,
+        "length": 30,
+        "sha256": "a14b7a5c1ca1a3d01f5e7793f7b242282aecf9869e37e4f8c930955d3892eb9a",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "Callback1Dispatch",
+          "source": "0x080004E6",
+          "target": "0x081E24B8"
+        },
+        {
+          "name": "Callback2Dispatch",
+          "source": "0x080004F0",
+          "target": "0x081E24B8"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 15,
+        "edge_count": 4,
+        "edge_kinds": {
+          "conditional-fallthrough": 2,
+          "conditional-taken": 2
+        },
+        "direct_call_count": 2,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SetMainCallback2",
+      "address": "0x08000500",
+      "range_end_exclusive": "0x0800050E",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "92c5d83553ed368e32063782a4cc2bcd83a97630be88d5ec13de2d6c9313f40a",
+      "rom_code_range": {
+        "start_offset": 1280,
+        "end_offset_exclusive": 1294,
+        "length": 14,
+        "sha256": "446150a3414100babd57dc2e9b3e626dbe9ef59a203ca65ac9a4ec69c51592a8",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 7,
+        "edge_count": 0,
+        "edge_kinds": {},
+        "direct_call_count": 0,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "cross_references": {
+    "agb_main_map": "analysis/axv-i-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "2236c5ca9b6408b1c438e1e0ffa224a74fd0fd9b6bcaaf7de00211d3a13ea7b8",
+    "set_main_callback2_map": "analysis/axv-i-rev0-retail-set-main-callback2-map.json",
+    "set_main_callback2_map_sha256": "bd65311e8d4091af6e81dce4b5559c5e0d64976aae8981c1d8e0932b9aa8a89d"
+  },
+  "raw_rom_bytes_included": false
+}
