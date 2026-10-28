@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "function": "CheckForFlashMemory",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/check_flash_memory_catalog.py",
+    "tool_sha256": "c6513d8733b80f16f5cceb59dd1735738c9da6db95bcf680e33aa13f56a6c683"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "src/check_flash_memory.c",
+      "sha256": "d5a99f21f5bd22d8374439df49fb709f9a89e7fb7191ecf23079fe3a6f94e21d"
+    },
+    {
+      "path": "analysis/check-flash-memory-summary.json",
+      "sha256": "6264baa51693454ef9c618eb1b73e716aaa4378776a2eaefb6939f0d84267ca2"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-check-flash-memory-map.json",
+      "sha256": "3739da92272adc10cabb57fc8abc4c9d5bf728ad7ef0c2e302c6546f9a76adc0"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-check-flash-memory-map.json",
+      "sha256": "34607947bda988d6e772f5208b6b5a01af3df54d4797b2078d3c8a9a8f7bad72"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-check-flash-memory-map.json",
+      "sha256": "79c4d4f0a6dc952b96733c7a27e4451b2e60b5a6c415e435f4b44728d0476703"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-check-flash-memory-map.json",
+      "sha256": "3dfeca87dfef437759df7070f1d4932ea97085e1deeb9ec576ac7c03d5fa1abe"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-check-flash-memory-map.json",
+      "sha256": "137f6ac3581c62fb87669ec0a58511c93cad56f56656dd55a1fd0498cb8f92b3"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-check-flash-memory-map.json",
+      "sha256": "0e95c6656d17ef4a0bef82820a6606809970f36629b0414cdc525abd548679d7"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-check-flash-memory-map.json",
+      "sha256": "f1d35595ee638ba046be143709f8005b701cd524b1432ad39f96be371f93cdbb"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-check-flash-memory-map.json",
+      "sha256": "d879841ee74270cc1df8273b4f553fb44d82c15eadc19cb386b954c55a2ca357"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-check-flash-memory-map.json",
+      "sha256": "0dd04c91736c99e46a43ca1af19b2dab9c9e1dd9b5129e51937ef46c82f0c59e"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-check-flash-memory-map.json",
+      "sha256": "b59f80375f69e70d649ccea682030a7cd7425a4a283739f2e60b0154bd4a3317"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-check-flash-memory-map.json",
+      "sha256": "4e986b34e1ea400f5205f6228189752dc8811ed7a72225e9336432bec11e398e"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-check-flash-memory-map.json",
+      "sha256": "fae2f9d785abc3da29044e4a945b41f5e26984d7d46ae870addbe7bdec8e5180"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-check-flash-memory-map.json",
+      "sha256": "9293b0cae21a382b0950d772d50f517bf24a3239dbffd1c50f17437dfea3dddb"
+    },
+    {
+      "path": "research/check-flash-memory-reconstruction.md",
+      "sha256": "bd40cd355f0de52f5bf13f3c5e9f505ec425efed17d14f9c1a8e4d851ebaf4b8"
+    },
+    {
+      "path": "tests/test_check_flash_memory_reconstruction.py",
+      "sha256": "dd8ad58e5cd5eedbb86f485b0dd80db69ef83ba833cc83f85c6ae57f79297695"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
