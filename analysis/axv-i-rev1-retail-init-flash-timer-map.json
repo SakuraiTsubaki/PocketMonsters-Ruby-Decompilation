@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axv-i-rev1-retail",
+    "sha256": "be116b6fa8d8c12d7ccff3faefd5defd886faa427ff2c85c06d245cbe4e531b2"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "InitFlashTimer",
+    "address": "0x08000720",
+    "range_end_exclusive": "0x08000730",
+    "source": "src/init_flash_timer.c",
+    "source_sha256": "4274128ae51b0a314c7dbd38b803828c3a4612787d31a85d6e4b05ae7ee858ab",
+    "rom_code_range": {
+      "start_offset": 1824,
+      "end_offset_exclusive": 1840,
+      "length": 16,
+      "sha256": "f416f5b6cc096ba434a6708a6c7072e09cf5511bc8fd1cd81bbc5c226fbabed7",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetFlashTimerIntr",
+        "source": "0x08000728",
+        "target": "0x081E1398"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 8,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_reachable_bytes_sha256": "f416f5b6cc096ba434a6708a6c7072e09cf5511bc8fd1cd81bbc5c226fbabed7",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "timer_index": 2,
+    "interrupt_table_slot": 7,
+    "pointer_variant": "direct"
+  },
+  "cross_reference": {
+    "check_flash_memory_map": "analysis/axv-i-rev1-retail-check-flash-memory-map.json",
+    "check_flash_memory_map_sha256": "4e986b34e1ea400f5205f6228189752dc8811ed7a72225e9336432bec11e398e"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
