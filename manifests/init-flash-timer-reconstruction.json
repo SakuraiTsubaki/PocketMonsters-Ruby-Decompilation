@@ -7,7 +7,7 @@
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
     "tool": "tools/init_flash_timer_catalog.py",
-    "tool_sha256": "7e99f0d2b6fcb7212625b43e5a31def9b56bcac165ed5d951618ffff270760c7"
+    "tool_sha256": "5d7c82944ea08dcd4f17206d25309fe08d4e12a6b531320fc59a9841585b5bee"
   },
   "outputs": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "path": "src/init_flash_timer.c",
-      "sha256": "4274128ae51b0a314c7dbd38b803828c3a4612787d31a85d6e4b05ae7ee858ab"
+      "sha256": "dad91a24f368a0932b5374703fcdeab49dc1865f4aa17a761efc24fa5488793a"
     },
     {
       "path": "analysis/init-flash-timer-summary.json",
@@ -24,63 +24,63 @@
     },
     {
       "path": "analysis/axv-j-rev0-retail-init-flash-timer-map.json",
-      "sha256": "a94307b38d91b29f9e606e602c70b97dbfcc6a2f0af3ea3b080d85441aa25fba"
+      "sha256": "67e64ccc228d69fde331dbc32002e24f2f55f9174e2ae5fa00528adbe35ff0fe"
     },
     {
       "path": "analysis/axv-e-rev0-retail-init-flash-timer-map.json",
-      "sha256": "3e88de935e983cce0b0e682f4d40b2ff330361c3147a830bef4d060be78e924c"
+      "sha256": "9772bc36162d218f2833759b9e37d20a4546a972a6c7ed12a3aa1ba67bd762d6"
     },
     {
       "path": "analysis/axv-e-rev1-retail-init-flash-timer-map.json",
-      "sha256": "4c26ae19d8b8d6735ace56ea14260207aad850c714bab48d7e7249e5fba89916"
+      "sha256": "07ff4d0c7e6821555a24735d0df82aaf488ffaedb6800764f0e43e1b612b55c1"
     },
     {
       "path": "analysis/axv-e-rev2-retail-init-flash-timer-map.json",
-      "sha256": "9e18c6ffcbe03390e26bec4d4538d6610157887bf520c9bfc1065cfded43f5d5"
+      "sha256": "1548e44c09280f5607dd5ccb177d56ac9cf3073acae19dcb4d68463b9e3f3cd1"
     },
     {
       "path": "analysis/axv-d-rev0-debug-init-flash-timer-map.json",
-      "sha256": "cf9cac9b49913846588e29b84d31a76ca9f8ecc72b20b87226a3b2884cd11624"
+      "sha256": "4f4c83c53aaeb403d55bb2a918181c1fe7a832e12065a10edb71009f6f76591b"
     },
     {
       "path": "analysis/axv-d-rev0-retail-init-flash-timer-map.json",
-      "sha256": "bbe956cab8bbaa8819a4bc179b406459eef9e1648da4888244af725c7eebf19c"
+      "sha256": "b13012438cef5b54d0d2fdaa1c4701eb54c74034f7f7a87d14f71830ad3d177f"
     },
     {
       "path": "analysis/axv-d-rev1-retail-init-flash-timer-map.json",
-      "sha256": "b3aa326cd9034acbfdb8d93b8fc54c70fac3af38ec939f80c9ca0f02124f0fa1"
+      "sha256": "2b5a77a5f8d9c856b5a23c5e5e0c7546e4ccbba5fdd6f581149afd4a9e1d47d5"
     },
     {
       "path": "analysis/axv-f-rev0-retail-init-flash-timer-map.json",
-      "sha256": "f5c2856b9299a07e1ac3912903c7c138faff5bb0df650f7658df9d6220b11741"
+      "sha256": "bfc98b63e1ed6e4b39f3868a053374db55935d6eb3dbdb8c2c8fb9bd6f258b50"
     },
     {
       "path": "analysis/axv-f-rev1-retail-init-flash-timer-map.json",
-      "sha256": "246625ea149c7d03451e20e54e5b326249fcc3b5ead69eb7ee456cf0fc8e094f"
+      "sha256": "72ab16115871b94df91a3fd9bc56fc5dd102525b81be5a45e91a5c59cb4e34e0"
     },
     {
       "path": "analysis/axv-i-rev0-retail-init-flash-timer-map.json",
-      "sha256": "2328918122bcbd849d48d63387cd3fdd9ce1eacfaa78cb6b12eb3dbdc9ef82e2"
+      "sha256": "68d00ab1131a1024cd19ef35747c39e73427eedac874add861822e6791048239"
     },
     {
       "path": "analysis/axv-i-rev1-retail-init-flash-timer-map.json",
-      "sha256": "9885496401f91d72ef2291d8f8bd8e28c40461742f8813c6e177a14c13a1e16a"
+      "sha256": "b9158c0f3b6c8ad1483005a4e3fdd0ef541409b39b26fcc7fd0a112088910a92"
     },
     {
       "path": "analysis/axv-s-rev0-retail-init-flash-timer-map.json",
-      "sha256": "c3661f4efbfc3cda9aa3be55dbcdba6b62dfe8ea1d88147838600b573b7eecad"
+      "sha256": "190eeeea3b4f63e8cd6a2a03ce28a3216c0a03b97f56d769ac8982f9eb265efe"
     },
     {
       "path": "analysis/axv-s-rev1-retail-init-flash-timer-map.json",
-      "sha256": "fb57f1e4bd497c5ae77ad47b48e2641ba1cc407083e09431b3eb6f5bfe841c69"
+      "sha256": "cf7aeaa21b17ccd8f8eb82f852b520a89436bc240a92d5b8c08ac7abba18003e"
     },
     {
       "path": "research/init-flash-timer-reconstruction.md",
-      "sha256": "87af7af107a4c1d49251e5823e1808d52148a3cff991eb63bb3e9f94ae0dac3d"
+      "sha256": "116e178f5ecc88265686d22409dcafba284fc2fbff37ca32333bc223acbb16ae"
     },
     {
       "path": "tests/test_init_flash_timer_reconstruction.py",
-      "sha256": "4103e815fc25e625fa62e49818a73cc5b2dd38295966eaa4c4bcac071e1c97b0"
+      "sha256": "b7ca7875f7d404a7b82205c205204c0f1044855f90800b3cb80f709565e59494"
     }
   ],
   "raw_rom_bytes_included": false
