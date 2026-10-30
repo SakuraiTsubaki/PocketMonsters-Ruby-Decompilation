@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Ruby",
+  "function": "SoftReset",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/soft_reset_catalog.py",
+    "tool_sha256": "5b8b5947dab5a77687a5012fd79ec2c3a5f83e8c6759e51ea56cb70a4383918b"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "src/soft_reset.s",
+      "sha256": "e37cd98386ecac57d28c2c50ce2d627d38001f225ea4ba3a65255b2846ecf9bd"
+    },
+    {
+      "path": "analysis/soft-reset-summary.json",
+      "sha256": "4265045ce5c1eace133faa287c7ccf70f6eee9b3e3635539121e389e29262260"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-soft-reset-map.json",
+      "sha256": "b0de721b8b1c70d32213b5f37bd33b162546dae89a727445f31424216498d161"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-soft-reset-map.json",
+      "sha256": "599cedd07a00b02538d38ce10c1517778e4e56914d098109a9b52c581d316a67"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-soft-reset-map.json",
+      "sha256": "ea747f7f41a6ceead8d78a48dd1f312787fa108c90765adb1586e7ed645a3f16"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-soft-reset-map.json",
+      "sha256": "cf272e00db26694147f3f9d3fb083f02d8e4472e06352c40a76c24ccba1d1ccc"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-soft-reset-map.json",
+      "sha256": "6e992f92654cb9cab09e958af7a8d82bf9a941c1c7408c765319972995c9cf51"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-soft-reset-map.json",
+      "sha256": "ccdc6c522cf213349c85259316b978d095cf7c7b8c78e6ef47af84e9f2924ce4"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-soft-reset-map.json",
+      "sha256": "07e6e541f2afb13e862b7451486e2dccf0652be7bc4c08b4b365171b007d76fa"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-soft-reset-map.json",
+      "sha256": "d81a8030e65075ad8ac7ef8cb1d298e0ef73a6279c08e0a91b7a2d17529ee777"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-soft-reset-map.json",
+      "sha256": "1bb4a6908c7e5d3867c03e70f0c091fae96532f779bfe23b34f30fe0c4e27f14"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-soft-reset-map.json",
+      "sha256": "6fa674c7235f2e937e942ce842678094693143949a87744d0ad5ad59cc81ce18"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-soft-reset-map.json",
+      "sha256": "db18797c7e5938519e6ecf7f3b6c120d5fe694fcf4e1e8379b7b8bb8ddbd52c8"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-soft-reset-map.json",
+      "sha256": "884585c68168f29cd0237c604a9e29be5aa1248e23422040759aa3efdfb8ea1e"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-soft-reset-map.json",
+      "sha256": "234118135f0d9165173e4ea710038523a16013256b2921f2cd981d81056e8417"
+    },
+    {
+      "path": "research/soft-reset-reconstruction.md",
+      "sha256": "d961b131b38d590fc65f4013063a36ca19b8d2f461e2db92d859681ce1651463"
+    },
+    {
+      "path": "tests/test_soft_reset_reconstruction.py",
+      "sha256": "2ee72b5909fd580136bbb5a3562d0bf89babc03c3a88252fe7bacf95861da991"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
