@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "axv-e-rev1-retail",
+    "sha256": "0d80909998a901c7edef5942068585bc855a85aec7e083aa6aeff84a5b2f8ec0",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "RegisterRamReset",
+    "address": "0x081E081C",
+    "range_end_exclusive": "0x081E0820",
+    "source": "src/register_ram_reset.s",
+    "source_sha256": "19614dda159498b82460291534267fc9046a8d2386ca93777831e9691d0e30db",
+    "rom_code_range": {
+      "start_offset": 1968156,
+      "end_offset_exclusive": 1968160,
+      "length": 4,
+      "sha256": "be83efc9175d398e437cd01b3943750ecc0700157e0f99aa356d8e56de2694bd",
+      "raw_bytes_published": false
+    }
+  },
+  "verified_behavior": {
+    "length": 4,
+    "instruction_halfwords": 2,
+    "software_interrupt": 1,
+    "return_instruction": "bx lr",
+    "argument_register": "r0"
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/axv-e-rev1-retail-agb-main-map.json",
+    "agb_main_map_sha256": "9f06ea92a3f7896931bdfe2819b5b0b83236c67c3d63f3f39926cb3618fd6ff8"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}

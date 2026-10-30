@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Ruby",
+  "function": "RegisterRamReset",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/register_ram_reset_catalog.py",
+    "tool_sha256": "6d8a5bd06900ab9c97437477759a554b21fb881e946ecaedb54beae8a47974f1"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "src/register_ram_reset.s",
+      "sha256": "19614dda159498b82460291534267fc9046a8d2386ca93777831e9691d0e30db"
+    },
+    {
+      "path": "analysis/register-ram-reset-summary.json",
+      "sha256": "9752955bf7e56607a4a88bc3936debca2ea31a79fa67ea6aae9dc45fa1a69286"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-register-ram-reset-map.json",
+      "sha256": "2e6ba534341a57d115d1a9805d56eb0a6d3883eb7a62656297480cd150981c75"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-register-ram-reset-map.json",
+      "sha256": "c58f567d900b9a6ba98154e59cf029dda99e75a03753d968dcaa4abed01292b5"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-register-ram-reset-map.json",
+      "sha256": "2ed0958145a67d6563d04830273875e7f66625336695c770d71ce624fb4e1962"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-register-ram-reset-map.json",
+      "sha256": "c5f5e0184f1f24396233d1bee3a3ef924ff01026c0c364bf768ce260e3cfc808"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-register-ram-reset-map.json",
+      "sha256": "e10d4a33da352a230cdae49a654108b8da0da3c560558a8c897d915f222c30fe"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-register-ram-reset-map.json",
+      "sha256": "7f075284b8e089ff1ce22ce7e798c37941ce82656b3b55c9d3d357e7d0def3ef"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-register-ram-reset-map.json",
+      "sha256": "9ee5f512396b7c4f15cb2340df38a04f4d58fa25989860583e3cddd3b6141906"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-register-ram-reset-map.json",
+      "sha256": "02ce1b056d07959d26d3db71b262f0171d1a1764278220cca2d51382bfbfa1f5"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-register-ram-reset-map.json",
+      "sha256": "b92d970b6260e1cca7e861b1fccbc3187485270e54565fae3f8a42689653209a"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-register-ram-reset-map.json",
+      "sha256": "dda45428633a13c582b97348ee5aff2ff5166b5652dbbf6b742f223318946434"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-register-ram-reset-map.json",
+      "sha256": "459483409521b07400784923ba5c149c4dd0f3b5cc349b888ba4338c9d285306"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-register-ram-reset-map.json",
+      "sha256": "1910dc5c4518779320e46e69882f9d26b6bcdcfaa55515a7dd034a39a3e42598"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-register-ram-reset-map.json",
+      "sha256": "adc934ca2d826d7854457e555dcac76ff9f793b0a32749a5c199d094c116ab3c"
+    },
+    {
+      "path": "research/register-ram-reset-reconstruction.md",
+      "sha256": "e27659d3b8fb3a96c9fe976d2f80e905a7d2463f8e276c63c19747894e0dfc7a"
+    },
+    {
+      "path": "tests/test_register_ram_reset_reconstruction.py",
+      "sha256": "f0ae9743bb2b2d2241dc373e1ec1e86610cf6a99ffe454fe940af8cd24207e01"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
