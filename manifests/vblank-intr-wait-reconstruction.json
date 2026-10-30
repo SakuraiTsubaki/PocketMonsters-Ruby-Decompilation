@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Ruby",
+  "function": "VBlankIntrWait",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/vblank_intr_wait_catalog.py",
+    "tool_sha256": "0f37f6063793efad6b23a1c2f1ddb859b5f76676986190398d4e36936ab3bcc6"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "src/vblank_intr_wait.s",
+      "sha256": "dc84f39a776225ae4d581ff7424e522f60b4cf8244c043645d9f5f292e563686"
+    },
+    {
+      "path": "analysis/vblank-intr-wait-summary.json",
+      "sha256": "7ca016f32238cddbbe052de88d098db0a0768d4ff237c9fd13de87d486356c99"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-vblank-intr-wait-map.json",
+      "sha256": "2879b8d2363e4a9bfdb15805e971814766c80fafadace8e04be9ab7cb23a22cd"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-vblank-intr-wait-map.json",
+      "sha256": "732fdd03b278be7565ef5248abe83e653eda78d49edb307842f046b949f26e38"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-vblank-intr-wait-map.json",
+      "sha256": "ac731857edd7753f2edb6a73494333d966ce363db658bf25f4de6058e0274522"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-vblank-intr-wait-map.json",
+      "sha256": "45ddcdd37af0a480b701a6d1038edb791b802cae16d7eb7cc5b58a9b14955b48"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-vblank-intr-wait-map.json",
+      "sha256": "ccecb60cd8360605545ab2c72c5f872b5543319fd27de563bed966fede0a0e99"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-vblank-intr-wait-map.json",
+      "sha256": "af3046ec6bd74467315cc5c9d7a0dea01fec5c08dca7c99c27e96fdb462e072b"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-vblank-intr-wait-map.json",
+      "sha256": "7d0c0de07098f362bdd151b4177463c8c34920da528af81e19b9be0661bc6cc7"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-vblank-intr-wait-map.json",
+      "sha256": "21765e6f29ab636664c72d4103952210fb9ed94899980d5c97dd2fccfaa4a5a4"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-vblank-intr-wait-map.json",
+      "sha256": "be885a90f6f9e4233ee3cfb8260d8add7a8df892dd84e91d5140a29de048f606"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-vblank-intr-wait-map.json",
+      "sha256": "f185dfa16df5983da4e36e67ce34eb97688ed89cef869faa645746e93dc60634"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-vblank-intr-wait-map.json",
+      "sha256": "ebeafae477fcad176c3d195103f9c29b49bde7d3f363afcf186e4c544074124f"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-vblank-intr-wait-map.json",
+      "sha256": "39239370fe1de0544f040a7c2d0bf6951761a248c0fd4babd16625fb8d5c2838"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-vblank-intr-wait-map.json",
+      "sha256": "a26a8e7236319609ddf8fea50be3aad19014dce45965524273802a30fa7e48fe"
+    },
+    {
+      "path": "research/vblank-intr-wait-reconstruction.md",
+      "sha256": "60bbbb990f2d1292ef9f4821845ac8517c95ab45f42a5e7e392dff33a50ddced"
+    },
+    {
+      "path": "tests/test_vblank_intr_wait_reconstruction.py",
+      "sha256": "10d276c30669ca362c99d0c80a96745357f9f65cc1fc598922bc8986c6f2d870"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
