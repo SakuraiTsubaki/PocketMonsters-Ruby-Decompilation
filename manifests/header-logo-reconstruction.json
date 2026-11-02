@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Ruby",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/header_logo_catalog.py",
+    "tool_sha256": "55641a0145cf323334c26b9aae9f4dc344be0043b2c2e057bd0a2dc470dae212"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "analysis/header-logo-summary.json",
+      "sha256": "c431db24c2cb1d5a9e50a6aadfdb61479d528145e7c0e4833f096b528ab6ae45"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-header-logo.json",
+      "sha256": "8849e042faa03e8fe9533ab8a4091a7b8a9542eab174a012575b4c7345bb39c0"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-header-logo.json",
+      "sha256": "111684709cd025ffd8ba78d7fbd344ed2d60560ea97d674793637b1cba604926"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-header-logo.json",
+      "sha256": "7395879faad138fc9aec9247a430d9f451b5aa08e27d59c3601b728dca7eb233"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-header-logo.json",
+      "sha256": "555de131d5736023e72bb04b03f05af0742ebd5ae86443dee1afdebd7013226c"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-header-logo.json",
+      "sha256": "db72b9b20ff0391e73ef9a77631da9015752857448b7cd49c2770b7d16b3e29a"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-header-logo.json",
+      "sha256": "aaf98fa4b1430c53fa7f07cf0c74a41097c9ff33e60d732699b28eaceba68c51"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-header-logo.json",
+      "sha256": "d67c6ce8f3ddfb467d32f7d21836e23d18daf449541d76b08f1881f0e879a473"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-header-logo.json",
+      "sha256": "6e5103297768fc730a728fef3ba4d5ae90a73a85bba9848d0c1091be0370a06d"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-header-logo.json",
+      "sha256": "faf34f92936ead672d8a085a57223c6c182fb92c2062a9423b4c9e6167dd0270"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-header-logo.json",
+      "sha256": "2f07caa852f400d7d21ef2a0e225335c940c3f57422b8325efc4efaaa79a8abc"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-header-logo.json",
+      "sha256": "a8e18d78bc99eeed6de38f109d40feb667ceff1a2581f19c00e571ce3bdd81cc"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-header-logo.json",
+      "sha256": "2128561a6f8304c99794e4cb601cccaf7a1cbb3e69cf1d07a4524f3e1f58cd31"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-header-logo.json",
+      "sha256": "e9c0762eb953ed039cb841739add59ef028157822d557aab70a226c1561f6b60"
+    },
+    {
+      "path": "research/header-logo-reconstruction.md",
+      "sha256": "f24df717fc9033a192afa02e9521ca564f7e2cd1d015aa2beb7e2fc7262c85ff"
+    },
+    {
+      "path": "tests/test_header_logo_reconstruction.py",
+      "sha256": "ef4117c1acfc9e8c662d77d886b8b0492167ff41d5fb9291413d58201fbc3ea0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
