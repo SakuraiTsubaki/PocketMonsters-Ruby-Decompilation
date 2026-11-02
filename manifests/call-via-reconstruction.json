@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Ruby",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/call_via_catalog.py",
+    "tool_sha256": "e30748f1d1af711d3815d8e1dd50ab9d242d8b340cf2a6cef8d59f753719c5be"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-summary.json",
+      "sha256": "66714d0958991933f28cf4a7c0b2e9eb38896e09073747b40e6866f35d7c8281"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-call-via-map.json",
+      "sha256": "e644fd5020d0e414d8f14477ee44d4310899c749a7b503c4ccac0c96f178d241"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-call-via-map.json",
+      "sha256": "a78bb54f0ee6873950cd791b1ae2f47c1d0c345a6f1e3c2d25e4a8325ad1e2b8"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-call-via-map.json",
+      "sha256": "27241a0e543775c31b094a3253042d4e67a75408ee5ca544adf201760ef0a2bd"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-call-via-map.json",
+      "sha256": "26ac857ab0c1701cae5c2b4c452011df1018eb180017b9f9a613d554beef7e3a"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-call-via-map.json",
+      "sha256": "0191170345a50c7202800908900fdac406c66131c51043775b927cc72d1f8919"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-call-via-map.json",
+      "sha256": "120bbe7b4ea79dd6ae978a84e12b1ca09fb4dfbeb73c13fa369f20073fecbf38"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-call-via-map.json",
+      "sha256": "48c36b1388cae3da689a9ce27c9fcff68fe01e0b55f23155ed1a3035566af656"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-call-via-map.json",
+      "sha256": "0bb1f3f78c799c7572d1f6925ebf9473702dcbef75b83384bd9560d8a05713df"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-call-via-map.json",
+      "sha256": "865107b1db4253923fa83a8d966d691f9f00e1c3de2c779045b46884f774be33"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-call-via-map.json",
+      "sha256": "2bde9216ce154175f293b98ca640fce4614a2f96bcc1206aa8f833954807347c"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-call-via-map.json",
+      "sha256": "3ef112fc30f71d934cbe1e586daaa20d3fedcc959b2b566ad2e8ae6adcfe3c29"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-call-via-map.json",
+      "sha256": "23288cdf1312c67c01667eee75be08676da1e1e3f56c80d734e18887b290d38f"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-call-via-map.json",
+      "sha256": "62d40c9973379b0b754e081163d17605452f12cf41a37f019bdef32e38a7ac45"
+    },
+    {
+      "path": "research/call-via-reconstruction.md",
+      "sha256": "34363e4a5196f67793a65e863f530cc7122e030f925dffd5040eed5629b867ce"
+    },
+    {
+      "path": "tests/test_call_via_reconstruction.py",
+      "sha256": "998291802b79cbdf10c8b961b718518535e91acf31c9554eeefe5c5ab2aeda1a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
