@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "axv-j-rev0-retail",
+    "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+    "build_kind": "retail"
+  },
+  "origin_reference": true,
+  "species": {
+    "id": 405,
+    "name": "groudon"
+  },
+  "source": "src/groudon_species_sprite_tables.asm",
+  "source_sha256": "308dd36af38a6d992da5912ef0d75e705d5d3c2c13809785b07b363eef7e36ae",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 1824776,
+      "table_offset": 1821536,
+      "source_offset": 8073208,
+      "size": 2048,
+      "tag": 405
+    },
+    "back": {
+      "entry_offset": 1830056,
+      "table_offset": 1826816,
+      "source_offset": 8074676,
+      "size": 2048,
+      "tag": 405
+    },
+    "palette": {
+      "entry_offset": 1833576,
+      "table_offset": 1830336,
+      "source_offset": 8074636,
+      "tag": 405
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/groudon-front-axv-j-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0",
+      "extraction": {
+        "source_offset": 8073208,
+        "compressed_length": 1428,
+        "compressed_sha256": "179cda1e13d45123cbac3ceb05eda2cfd124932596a193bca4c4f46aa9296f62",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "b1feb2573633893493fdb3adad61e0a34002bc5ddb0698f6dd90e615008b1b13",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-j-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c",
+      "extraction": {
+        "source_offset": 8074676,
+        "compressed_length": 1127,
+        "compressed_sha256": "b050e136a28ab21fdfaeaf7bc69bbd0364f2d8e2c62206ddfbf050026a29139b",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "c6d3b0dcc85e80f1fdeeb17539c17e6a7cb826e46c699b92e75bb98860c589fe",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-j-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2",
+      "extraction": {
+        "source_offset": 8074636,
+        "compressed_length": 40,
+        "compressed_sha256": "22cfef8f7448a3d89b2435f1c7efe133fd13b89e89e6a338b7d19575bf90e2dc",
+        "decompressed_length": 32,
+        "decompressed_sha256": "6b859173173a5c8cc46efef7b84511f4ad719c2073824e64f31c1c9a3b2edfbd",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

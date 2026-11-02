@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Ruby",
+  "species": {
+    "id": 405,
+    "name": "groudon"
+  },
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rse_species_sprite_catalog.py",
+    "tool_sha256": "e4d6b7511861cb851eb6599271325336c2a7b6baf22dc208d1dcf3eee4ef233a"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "src/groudon_species_sprite_tables.asm",
+      "sha256": "308dd36af38a6d992da5912ef0d75e705d5d3c2c13809785b07b363eef7e36ae"
+    },
+    {
+      "path": "analysis/groudon-sprite-set-summary.json",
+      "sha256": "a9c05b151f5e430660c5b1b88e49cc45cc1a49d2413627f6329643dac905bd32"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-groudon-sprite-set.json",
+      "sha256": "8c2fbd45a131a7ee1ffa19ed14c5fc8b04b9cd7190cda6bed0caa6ff82b9c2f6"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-groudon-sprite-set.json",
+      "sha256": "461382c6a35fbddbfcaa77d5f154cfeeaf5e39750744ac83a04cf960ef774d19"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-groudon-sprite-set.json",
+      "sha256": "ee005952c2105344c2c37a2281b6dc98ece5203305ae635301a23746058ce859"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-groudon-sprite-set.json",
+      "sha256": "0a0b20d18b47e75a0ee9deb3247d903afd933d5bb81ee02313c196028d14a423"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-groudon-sprite-set.json",
+      "sha256": "f7015c5ab0d1173a340753fe61122792253a48bfbd20c51a7b27efd1f132c5e0"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-groudon-sprite-set.json",
+      "sha256": "7b084f16722cbdf2614e8d6229e98f3bdd5a0e98900129340320302a718206ce"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-groudon-sprite-set.json",
+      "sha256": "d43ed8ac1b61779b10cbafd03ec4ed1c2f992b7598013ded0d8cf829ba2d161b"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-groudon-sprite-set.json",
+      "sha256": "1e73788cd6202c1e690a6487338c839dbe7e3164a778fab990333d18a1ce9f4a"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-groudon-sprite-set.json",
+      "sha256": "70176a82fc830cbe71b43aff5bda57abf3929c33d3a6bac5f751aadab5fe5edb"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-groudon-sprite-set.json",
+      "sha256": "5401a7829acbab29dec1d1931fe3dc15ddf662be2599b41118084cebde713a09"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-groudon-sprite-set.json",
+      "sha256": "f1696023fc375254bce8e2fc081cb08dc54d69521d4e8c1f7d9be135a54cd859"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-groudon-sprite-set.json",
+      "sha256": "79dce37d4063e3880ac9722b25cbe083eb28fc816549463922c40c5cd98efec6"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-groudon-sprite-set.json",
+      "sha256": "6fae5e2a64b5677372af4181dccc4f7929520599e8d0ce68e1e40c1bd94d6c47"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-j-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-j-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-j-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-e-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-e-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-e-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-e-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-e-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-e-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-e-rev2-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-e-rev2-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-e-rev2-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-d-rev0-debug.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-d-rev0-debug.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-d-rev0-debug.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-d-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-d-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-d-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-d-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-d-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-d-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-f-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-f-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-f-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-f-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-f-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-f-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-i-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-i-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-i-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-i-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-i-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-i-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-s-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-s-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-s-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-s-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-s-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-s-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "research/groudon-sprite-set.md",
+      "sha256": "48877f556707f0c093bcd6838b589ff4da76d982be46ab4d5eb3e503f39d422a"
+    },
+    {
+      "path": "tests/test_groudon_sprite_reconstruction.py",
+      "sha256": "4c81df018a6ba65908feebdcfa9467f5bb62a4442fb96b9072d9f5400fdd8bf4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
