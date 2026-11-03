@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Ruby",
+  "library": "libagbsyscall",
+  "functions": [
+    "BgAffineSet",
+    "CpuFastSet",
+    "ObjAffineSet"
+  ],
+  "family_profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/affine_copy_bios_stub_catalog.py",
+    "tool_sha256": "8ffc37ffdc5fbbf7b11c55cb8bcd88075c8d0eaa34c3fdeb0565300a20201e79"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "src/affine_copy_bios_stubs.s",
+      "sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7"
+    },
+    {
+      "path": "analysis/affine-copy-bios-stub-summary.json",
+      "sha256": "1ef460d976b5902ef983ce368e807598fa890c16fafc242756a4aebbda78b11b"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "f8ea20cd6e5640efddc2cd0d654a5952b965f25521221c2af5b2e77d9725369d"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "1022b90bbea2e550548c234cb375fb8b1731345de522efe25ea7581b795e5658"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "10ffe0b0cdf0fb89e6a0797d78641961ca1b6087b4c3bf196597a0a322c17249"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-affine-copy-bios-stub-map.json",
+      "sha256": "4012c5583c013ea23275102741c2c4decb2448b71c3b81bc62b4b81a600c94a8"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-affine-copy-bios-stub-map.json",
+      "sha256": "9801e83064297cc0ff72f851613e80fd3bc724153178ea00c80c80badbc7cdd3"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "471de08b7020b0d760321feec3db086454f62c6872ba2fed2ed28433a34c9ef8"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "edf873bf3cd5c3de35b53bd31ac04a580651a3e75c49ddaa55d11dddcf7d05d3"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "763634d4fb0b60c0d2a3570bb02d712105b0ffe9c6a76366851cc0adba54daa6"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "f6106c132c883e256a2a51aa7ba6a1062193abae11d9f94f692f4a37416d2452"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "73e935cbd06dc96e5ccb58ab8fde6ab16228e5a261f9da64a4ed49b64619b974"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "9bd88f1c5e135d594f19e08a2df91f78298878bd526dedfc8e9b39dc9abbe809"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "733671610cd36df81dcca6ca91afaae2cfbd91a028c94667e3684d91e90e9984"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-affine-copy-bios-stub-map.json",
+      "sha256": "a6bbed430ea9cb42a00ff5f945d2280aff448fe0f1e968a149368305132f436a"
+    },
+    {
+      "path": "research/affine-copy-bios-stub-reconstruction.md",
+      "sha256": "e52ff31f59d7b96bc1da7ada694b00fbfc6143efa6604ab827a620fc989353cb"
+    },
+    {
+      "path": "tests/test_affine_copy_bios_stub_reconstruction.py",
+      "sha256": "b0b68dce3e8a006fe511a2777fdc34411c375c490981d4e409284fcdf26e78db"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
