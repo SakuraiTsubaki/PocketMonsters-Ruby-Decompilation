@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Ruby",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "family_profile": "rs",
+  "origin_reference": "axv-j-rev0-retail",
+  "release_count": 13,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/arctan2_cpuset_stub_catalog.py",
+    "tool_sha256": "71b90c98866abb22f4c452dffaa5389d9baf1c4e43949e8994d1b927715553b2"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "bd52a54de11ea9466b11a1220cb7d2811c4fd39f7d296079f899609723a17b9e"
+    },
+    {
+      "path": "src/arctan2_cpuset_bios_stubs.s",
+      "sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814"
+    },
+    {
+      "path": "analysis/arctan2-cpuset-stub-summary.json",
+      "sha256": "24580f293e55b83c550ea93f0cb52c185e85402e38fdfb9e929cd27a2ee4b4fd"
+    },
+    {
+      "path": "analysis/axv-j-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "a62772d498ef74dec7a90b66c80bb037bf1468d02d9bc345e3caf805b7e346e0"
+    },
+    {
+      "path": "analysis/axv-e-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "ef81af3b2be7ac4ffba425e9268ff9dd71408ca015bad58b4f8f41f6f47bd09b"
+    },
+    {
+      "path": "analysis/axv-e-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "9e3cdaca7f26eff0220b88a2855ab3c04c7d8779d2c5b2164a6f8a981d03bc2a"
+    },
+    {
+      "path": "analysis/axv-e-rev2-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "d4cd934748f83e4d600dfc209a2f228387b7e693186e626a0b80a5f80d0c6f98"
+    },
+    {
+      "path": "analysis/axv-d-rev0-debug-arctan2-cpuset-stub-map.json",
+      "sha256": "2b2c409dfcb21661205602bca85bb09c069cc76ceb9b4df8c6488786862af7c9"
+    },
+    {
+      "path": "analysis/axv-d-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "da50471c5cbe1154ec22ef13be27bfd396231bbcaa43c89839e7e921bfe8891e"
+    },
+    {
+      "path": "analysis/axv-d-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "05500baddd2c3d6413cb0a4b142d5cc8594723179841b4498ec6315adc5b1d20"
+    },
+    {
+      "path": "analysis/axv-f-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "324ac9f9f11c44908cc981c8d1488904e3829bd896a495d5cd1d71d0d6c3d3ca"
+    },
+    {
+      "path": "analysis/axv-f-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "2f1fbf8749066ec1756c985ef66571ec9b08306382f83fcb7ae712243f412467"
+    },
+    {
+      "path": "analysis/axv-i-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "df13407c7c397bcae1a8f6f1961308055fb297f9454fba5ac11f73d474337206"
+    },
+    {
+      "path": "analysis/axv-i-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "8a7134cd2f04138715d6f9e63c008a53bb5bbee16ea9cead9700be8bae9b0744"
+    },
+    {
+      "path": "analysis/axv-s-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "d5e8160532df7c1108c96c7391b614e86ef050fb3a6777efe3ca4c35b7732a4c"
+    },
+    {
+      "path": "analysis/axv-s-rev1-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "2bd7478ba0007083264d99a5af9c06dd7ffb38242dccf51045ea869347f36cf4"
+    },
+    {
+      "path": "research/arctan2-cpuset-stub-reconstruction.md",
+      "sha256": "ddfeda9e587c76b7671c47656bceb71820d85ffdb8e8fdb08c6a77f6759c08ad"
+    },
+    {
+      "path": "tests/test_arctan2_cpuset_stub_reconstruction.py",
+      "sha256": "cd3c05fecb75927bae2fa9398ee570fbb0f6d2c9a8c9965a9245a2cfc3ed2705"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
