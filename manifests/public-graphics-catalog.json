@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "game": "Ruby",
+  "asset_count": 118,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/catalog_public_graphics.py",
+    "tool_sha256": "df6121aca7dae3854a5998adc8c4aabeb820793868cfd21cab812bb82f09aa92"
+  },
+  "inputs": [
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-j-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-j-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-j-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-j-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-j-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-j-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-j-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-j-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-j-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-e-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-e-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-e-rev2-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-e-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-e-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-e-rev2-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-e-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-e-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-e-rev2-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-e-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-e-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-e-rev2-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-e-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-e-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-e-rev2-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-e-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-e-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-e-rev2-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-e-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-e-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-e-rev2-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-e-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-e-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-e-rev2-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-e-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-e-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-e-rev2-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-d-rev0-debug.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-d-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-d-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-d-rev0-debug.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-d-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-d-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-d-rev0-debug.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-d-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-d-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-d-rev0-debug.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-d-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-d-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-d-rev0-debug.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-d-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-d-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-d-rev0-debug.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-d-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-d-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-d-rev0-debug.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-d-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-d-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-d-rev0-debug.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-d-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-d-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-d-rev0-debug.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-d-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-d-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-f-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-f-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-f-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-f-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-f-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-f-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-f-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-f-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-f-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-f-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-f-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-f-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-f-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-f-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-f-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-f-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-f-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-f-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-i-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-i-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-i-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-i-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-i-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-i-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-i-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-i-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-i-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-i-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-i-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-i-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-i-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-i-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-i-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-i-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-i-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-i-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-s-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-axv-s-rev1-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-s-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-axv-s-rev1-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-s-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-axv-s-rev1-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-s-rev0-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-axv-s-rev1-retail.pal",
+      "sha256": "dc7888184c70f032dba8158f621d35a14fcf49dfe60e4723441b34aab98daff2"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-s-rev0-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-back-axv-s-rev1-retail.png",
+      "sha256": "a7ec2399d312ea8f1a8470a8322b520bb9907655b3283972d75a8e5284f1bb7c"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-s-rev0-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/groudon-front-axv-s-rev1-retail.png",
+      "sha256": "a4952523b62975781761e62bee26a4be71417c60029c57ac61610c173486a5f0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-s-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-axv-s-rev1-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-s-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-axv-s-rev1-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-s-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-axv-s-rev1-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/public-graphics-catalog.json",
+      "sha256": "684eb30de31ba34e9845ce8ee3b3952f995c131d04736fb5da2dcdb8ad949c5a"
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "c6ba2dda8df6df640a929db7c34d1a28e58cbee160e6e5106588ebb32a1c0bac"
+    },
+    {
+      "path": "research/public-graphics-catalog.md",
+      "sha256": "d5c59d05b863c12a2229574396217a554f917e5bf2e72c1bbc0ffbd54ba2db94"
+    },
+    {
+      "path": "tests/test_public_graphics_catalog.py",
+      "sha256": "a87003a2fd5a68d0a7fd8b0d6fb3b225aee3a5d3cd23a990c1878696998478cb"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
