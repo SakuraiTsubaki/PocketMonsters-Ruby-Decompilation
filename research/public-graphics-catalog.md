@@ -1,5 +1,5 @@
 # Ruby public graphics catalog
 
-The catalog inventories all 196 files currently stored below `graphics/`: 131 rendered PNG assets, 65 JASC palettes, and 0 JSON sidecars. Each entry records its full hash and points to the pre-existing ROM-derived analysis or manifest that establishes provenance. `ASSETS.md` supplies a browsable GitHub preview.
+The catalog inventories all 274 files currently stored below `graphics/`: 183 rendered PNG assets, 91 JASC palettes, and 0 JSON sidecars. Each entry records its full hash and points to the pre-existing ROM-derived analysis or manifest that establishes provenance. `ASSETS.md` supplies a browsable GitHub preview.
 
 The catalog does not infer a language when the filename does not declare one, and it does not embed ROM bytes.
